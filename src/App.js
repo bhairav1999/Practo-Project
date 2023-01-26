@@ -8,7 +8,7 @@ import LabtestCitySearch from "./Component/LabtestCitySearch";
 
 
 function App() {
-  console.log("minor change");
+
   return (
 
     <div >
