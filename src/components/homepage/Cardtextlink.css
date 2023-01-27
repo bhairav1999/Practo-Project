@@ -1,0 +1,42 @@
+/* #surgery{
+    border-radius: 30px;
+    width: 95%;
+    height: 290px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    background-color: #333fa2;
+} */
+#surgery>div{
+    width: 50%;
+    height: 100%;
+}
+/* #surgery>div:first-child>.img{
+    width: 45%;
+    height: 18%;
+    margin-left: 60px;
+    margin-top: 40px;
+} */
+/* #surgery>div:first-child>.desc{
+    color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+} */
+
+#surgery>div:first-child>.desc>h1{
+    margin-top: 5px;
+    font-size: 40px;
+}
+#surgery>div:first-child>.desc>button{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.boximg{
+    position: absolute;
+    top: 165px;
+    right: 40px;
+    box-sizing: border-box;
+}

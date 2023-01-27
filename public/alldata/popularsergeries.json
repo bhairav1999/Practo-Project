@@ -1,0 +1,102 @@
+[
+    {
+   "id" :1,
+    "sergery_name":"Piles",
+   "imgpath":"/assets/img/psergeries/Non-surgical_Piles.jpg"
+},
+{
+    "id" :2,
+     "sergery_name":"Hernia Treatment",
+    "imgpath":"/assets/img/psergeries/Hernia.jpg"
+ },
+ {
+    "id" :3,
+     "sergery_name":"Kidney Stone",
+    "imgpath":"/assets/img/psergeries/Kidney_stone.jpg"
+ },
+ {
+    "id" :4,
+     "sergery_name":"Cataract",
+    "imgpath":"/assets/img/psergeries/Cataract_20_1_.jpg"
+ },
+ {
+    "id" :5,
+     "sergery_name":"Circumcision",
+    "imgpath":"/assets/img/psergeries/Circumcision_1.jpg"
+ },
+ {
+    "id" :6,
+     "sergery_name":"Lasik",
+    "imgpath":"/assets/img/psergeries/Lasik.jpg"
+ },
+ {
+    "id" :7,
+     "sergery_name":"Varicose Veins",
+    "imgpath":"/assets/img/psergeries/Varicose-vein.jpg"
+ },
+ {
+    "id" :8,
+     "sergery_name":"Gallstone",
+    "imgpath":"/assets/img/psergeries/Gall-stones_1.jpg"
+ },
+ {
+    "id" :9,
+     "sergery_name":"Anal Fistula",
+    "imgpath":"/assets/img/psergeries/Anal_Fistulaa.jpg"
+ },
+ {
+    "id" :10,
+     "sergery_name":"Gynaecomastia",
+    "imgpath":"/assets/img/psergeries/Breast_Removal_-_Mastectomy.jpg"
+ },
+ {
+    "id" :11,
+     "sergery_name":"Piles",
+    "imgpath":"/assets/img/psergeries/Non-surgical_Piles.jpg"
+ },
+ {
+    "id" :12,
+     "sergery_name":"Anal Fissure",
+    "imgpath":"/assets/img/psergeries/Anal_Fistulaa.jpg"
+ },
+ {
+    "id" :13,
+     "sergery_name":"Lipoma Removal",
+    "imgpath":"/assets/img/psergeries/Lipoma-removal.jpg"
+ },
+ {
+    "id" :14,
+     "sergery_name":"Sebaceous cyst",
+    "imgpath":"/assets/img/psergeries/Sebaceous-Cyst.jpg"
+ },
+ {
+    "id" :15,
+     "sergery_name":"Pilonidal Sinus",
+    "imgpath":"/assets/img/psergeries/Pilonidal_sinus.jpg"
+ },
+ {
+    "id" :16,
+     "sergery_name":"Lump in Breast",
+    "imgpath":"/assets/img/psergeries/Breast-Lump.jpg"
+ },
+ {
+    "id" :17,
+     "sergery_name":"TURP",
+    "imgpath":"/assets/img/psergeries/turp.jpg"
+ },
+ {
+    "id" :18,
+     "sergery_name":"Hydrocele",
+    "imgpath":"/assets/img/psergeries/Hydrocele.jpg"
+ },
+ {
+    "id" :19,
+     "sergery_name":"IVF",
+    "imgpath":"/assets/img/psergeries/IVF.png"
+ },
+ {
+    "id" :20,
+     "sergery_name":"Knee Replacement",
+    "imgpath":"/assets/img/psergeries/Total_Knee_Replacement.png"
+ }
+]

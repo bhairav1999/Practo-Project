@@ -1,0 +1,38 @@
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+.Appimg{
+    height: 350px;
+    width: 300px;
+    margin-left: 100px;
+   
+}
+.description{
+   margin-left: 0px;
+}
+.inputPhoneNo{
+padding-top: 6px;
+padding-bottom: 6px;
+}
+.btn {
+    margin: 0px;
+    padding: 0px;
+}
+
+.playstorebtn img{
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+}
+
+#more {display: none;}
+#myBtn{
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+  margin-left: 50px;
+}

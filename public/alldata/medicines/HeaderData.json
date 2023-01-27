@@ -1,0 +1,20 @@
+[
+  {
+    "id":1,
+    "bimage":"/assets/img/headerimg/c1.png"
+  },
+  {
+    "id":2,
+    "bimage":"/assets/img/headerimg/c2.png"
+  },
+  {
+    "id":3,
+    "bimage":"/assets/img/headerimg/c3.png"
+  },
+  {
+    "id":4,
+    "bimage":"/assets/img/headerimg/c4.png"
+  }
+  
+
+]

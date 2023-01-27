@@ -1,0 +1,13 @@
+#carousel{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+#carousel>p{
+    font-size: 20px;
+    line-height: 25px;
+}
+#carousel>h1{
+    margin-top: 55px;
+}

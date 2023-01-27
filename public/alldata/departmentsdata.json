@@ -1,0 +1,45 @@
+[
+    {
+   "id" :1,
+    "sergeries":"General Sergery",
+    "ailments":"9 ailments",
+    "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+},
+{
+    "id":2,
+    "sergeries":"Proctology",
+    "ailments":"9 ailments",
+    "imgpath":"/assets/img/department/140818535_m_1__1_.png"
+},
+{
+    "id":3,
+    "sergeries":"Ophthamology",
+    "ailments":"9 ailments",
+    "imgpath":"/assets/img/department/img_Ophthalmologist_specialists.png"
+},
+{
+    "id":4,
+    "sergeries":"Urology",
+    "ailments":"9 ailments",
+    "imgpath":"/assets/img/department/img_Urologist_symptom.png"
+},
+{
+    "id":5,
+    "sergeries":"Cosmetic",
+    "ailments":"9 ailments",
+    "imgpath":"/assets/img/department/Group_50_Copy_14__1_.png"
+},
+{
+    "id":6,
+    "sergeries":"Orthopedics",
+    "ailments":"9 ailments",
+    "imgpath":"/assets/img/department/Group_50_Copy_8.png"
+},
+{
+    "id":7,
+    "sergeries":"Hair Treatment",
+    "ailments":"9 ailments",
+    "imgpath":"/assets/img/department/orthopedics.png"
+}
+
+]

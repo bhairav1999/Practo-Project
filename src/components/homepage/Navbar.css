@@ -1,0 +1,75 @@
+*{
+    font-family: Camphor,Helvetica,Arial,sans-serif;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 62px;
+    font-family: Camphor,Helvetica,Arial,sans-serif;
+    border-bottom: 1px solid #d3d3d3;
+    font-size: 15px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    position: sticky;
+    top: 2%;
+    left: 0%;
+    background-color: white;
+    z-index: 1;
+}
+
+#navbar>div{
+    margin-top: 10px;
+}
+#navbar>.box{
+    width: 125px;
+    margin-right: 8px;
+}
+#navbar>.box>p{
+    font-size: 12px;
+    color: #787887;
+    margin: 0%;
+    margin-top: 4px;  
+}
+#navbar>div>h4{
+    margin: 0px;
+    margin-top: 3px;
+}
+#navbar>#login{
+    height: 15px;
+    display: flex;
+    font-size: 13px;
+    color: #787887;
+    border-radius: 4px;
+    border: solid 1px #d3d3d3;
+    padding: 8px;
+    padding-bottom: 10px;
+}
+#navbar>div>select{
+    border: none;
+    margin-top: 10px;
+    width: 90%;
+}
+.logo{
+    width: 5%;   
+    margin: 0px 25px;
+    font-size: x-large;
+   color: blueviolet;
+}
+#login>div{
+    margin: 2px;
+}
+#login>div>a{
+    text-decoration: none;
+    color: #787887;
+}
+#login>div>a:hover{
+    color: #14bef0;;
+}
+#navbar>#login:hover{
+    border-color: #14bef0;
+    color: #14bef0;
+}
+.box>h4>a{
+    text-decoration: none;
+    color: black;
+}

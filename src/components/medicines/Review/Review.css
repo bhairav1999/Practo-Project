@@ -1,0 +1,39 @@
+
+.reviewContent h3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+  .team{
+    height: 200px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .team .team_member{
+    width: 600px;
+    color: #0c0c0c;  
+    position: relative;
+  }
+
+  .team .team_member .paragraph{
+    font-size: 20px;
+    text-decoration: #0c0c0c;
+    
+  }
+
+  
+  .team .team_member .team_img img{
+    border-radius: 50%;
+    border: 1px solid black;
+   
+  }
+  .team .team_member .content{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .team .team_member .content .clock{
+    color: rgb(132, 134, 134);
+  }

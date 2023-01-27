@@ -1,0 +1,44 @@
+/*---------------control-btn-------------*/
+.control-btn button {
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 2px;
+  }
+  
+  .control-btn .next {
+    position: absolute;
+    top: 40%;
+    right: -20px;
+  }
+  
+  .control-btn .prev {
+    position: absolute;
+    top: 40%;
+    left: -20px;
+    z-index: 99;
+  }
+  .control-btn .icon {
+    font-size: 25px;
+  }
+  /*---------------control-btn-------------*/
+  
+  .btn1{
+    color: #14BEF0;
+  }
+
+  .shadow1:hover{
+    transform: scale(0.9);
+  }
+
+  .shadow1{
+    transition: transform.5s;
+    margin-left: 5px;
+  }

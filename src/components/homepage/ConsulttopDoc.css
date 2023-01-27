@@ -1,0 +1,56 @@
+#consult{
+    width: 95%;
+    height: 70px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+#consult>div>p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#consult>button{
+    border: 2px solid #14bef0;
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+#consult2{
+    width: 90%;
+    height: 230px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#consult2>div{
+    width: 11%;
+    height: 100%;
+}
+h5{
+font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

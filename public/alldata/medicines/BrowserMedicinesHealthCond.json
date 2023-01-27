@@ -1,0 +1,30 @@
+[
+  {
+    "id":1,
+    "bimage":"/assets/img/BrowserMedicinesimg/m1.jpg"
+  },
+  {
+    "id":2,
+    "bimage":"/assets/img/BrowserMedicinesimg/m2.jpg"
+  },
+  {
+    "id":3,
+    "bimage":"/assets/img/BrowserMedicinesimg/m3.jpg"
+  },
+  {
+    "id":4,
+    "bimage":"/assets/img/BrowserMedicinesimg/m4.jpg"
+  },
+  {
+    "id":5,
+    "bimage":"/assets/img/BrowserMedicinesimg/m5.png"
+  },
+  {
+    "id":6,
+    "bimage":"/assets/img/BrowserMedicinesimg/m6.jpg"
+  },
+  {
+    "id":7,
+    "bimage":"/assets/img/BrowserMedicinesimg/m7.png"
+  }
+]

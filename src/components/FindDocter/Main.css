@@ -1,0 +1,76 @@
+
+
+/* main css all */
+   .body{
+        width: 100%; 
+        height: 500px;
+       
+       background-image:url('../../../public/assets/img/backgroundimg/img4.png') ;
+       background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+   }
+.d1{
+  margin-top: 50px;
+  margin-left:300px ;
+}
+.d2{
+  margin-top: 20px;
+}
+.d3{
+  display: inline;
+  margin-left: 30px;
+}
+.ic1{
+      margin-top: 230px;
+}
+
+
+/* second com css start */
+  .s1{
+     background-color: rgb(245, 245, 248);
+  }
+
+/* 1st com icon css */
+.color1{
+  margin-top: 215px;
+    background-color: rgba(31, 31, 108, 0.844);
+}
+.icon ,h6{
+      font-size: medium;
+      color: white;
+}
+/* third com */
+  .t1{
+    background-color:hsl(45, 50%, 98%);
+  }
+
+/* four com  */
+.f1{
+  background-color: rgb(245, 245, 248);
+}
+
+
+/* nine com css  */
+ .h1{
+   width:5% ;
+   height:20px; 
+}
+
+.g1{
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* eight com css */
+.bg1{
+  background-color:rgb(241, 247, 250) ;
+}
+
+/* sixth com */

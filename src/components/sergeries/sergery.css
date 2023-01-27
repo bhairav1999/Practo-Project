@@ -1,0 +1,64 @@
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  .column1 {
+    float: left;
+    width: 25%;
+    padding: 3px;
+  }
+  /* Clear floats after image containers */
+  /* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: block;
+  } */
+  
+  .column {
+    flex: 20%;
+    padding: 5px;
+  }
+  .column1 {
+    flex: 25%;
+    padding: 3px;
+  }
+.imgsize{
+  width: 50px;
+  height: 50px;
+}
+.caption {
+  display: block;
+
+  
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+.imagesize{
+  width: 45px;
+  height: 45px;
+}
+
+
+.shadow{
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 2.00475px 12.0285px rgb(0 0 0 / 13%);
+margin-top: -20px;
+padding: 20px 20px 30px;
+position: relative;
+}
+
+
+
+
+
+
+
+
