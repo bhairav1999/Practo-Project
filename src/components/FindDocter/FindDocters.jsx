@@ -11,7 +11,7 @@ import Third from './Third'
 
 const FindDocters = () => {
     return (
-        <div>
+        <div className='container1'>
             <Main />
             <Third />
             <Fourth />

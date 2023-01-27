@@ -3,9 +3,10 @@ import LabtestCitySearch from "./LabtestCitySearch";
 import WhyBook from "./WhyBook"
 
 
+
 const LabTestAllComp = () => {
   return (
-    <div>
+    <div >
       <LabtestCitySearch />
       <WhyBook/>
     </div>

@@ -36,7 +36,7 @@ const LaptestOffer = () => {
 
 <div className="row bgColor me-2 ">
     <div className="col col-sm-2 col-md-2">
-     <img src="https://www.practo.com/tests/public/images/call_to_order.svg" alt="" className='rounded-circle img-fluid mt-3 ms-5'/>
+     <img src="https://www.practo.com/tests/public/images/call_to_order.svg" alt="" className='rounded-circle rounded-circle1 img-fluid mt-3 ms-5'/>
     </div>
 
     <div className="col col-sm-5 col-md-5  mt-4">

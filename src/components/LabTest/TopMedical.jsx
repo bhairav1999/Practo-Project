@@ -67,7 +67,7 @@ const TopMedical = () => {
             <MDBCard>
               <MDBCardHeader>
                 <img
-                  className="img "
+                  className="img100 "
                   src="https://www.practo.com/tests/public/icons/testprofiles/lipid_profile.png"
                   alt=""
                 />{" "}
