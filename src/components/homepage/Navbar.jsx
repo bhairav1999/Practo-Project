@@ -75,7 +75,8 @@ const Navbar = () => {
 <li><a className="dropdown-item" href="#">Another link</a></li>
   </ul>
 </div>
-<span><a href="">Login/SignUp</a></span>
+<span>
+<Link to="./LoginPage">LoginPage</Link></span>
       </span>
 </div>
 </div>
