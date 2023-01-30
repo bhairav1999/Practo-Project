@@ -16,28 +16,11 @@ const LabtestCitySearch = () => {
           </select>
           {/* select col End */}
         </div>
-        <div className="col col-sm-3 col-md-3">
-          <nav className="navbar navbar-light">
-            <div className="container-fluid">
-              <form className="d-flex">
-                <input
-                  className="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button className="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
-          </nav>
-          {/* search col end */}
-        </div>
-        <div className="col col-sm-5 col-md-5"></div>
+        
+        <div className="col col-sm-7 col-md-7"></div>
         {/* empty */}
         <div className="col col-sm-1 col-md-1  ">
-          <button type="button" class="btn btn-outline-dark">
+          <button type="button" class="btn  text-end btn-outline-dark">
             <i class="bi bi-cart-plus"></i> Cart
           </button>
           {/* cart btn col end */}
