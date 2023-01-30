@@ -6,6 +6,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import LabtestFind from './LabtestFind'
+import { NavLink } from "react-router-dom";
+
 import {
   MDBCard,
   MDBCardTitle,
@@ -65,7 +67,14 @@ const SlideBar = () => {
 
           <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
-              <MDBCardBody className="text-dark">
+              
+
+
+            <NavLink 
+            
+            to="/BookedServer"
+            className="nav-link active">
+            <span className="h6"><MDBCardBody className="text-dark">
                 <MDBCardTitle className="h5 text-danger">COVID RT-PCR</MDBCardTitle>
                 <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
@@ -76,7 +85,11 @@ const SlideBar = () => {
                 <MDBCardText className="h5">
                 ₹ 850
                 </MDBCardText>
-              </MDBCardBody>
+              </MDBCardBody></span>
+          </NavLink>
+
+
+
               <MDBCardFooter background="transparent" className="text-center">
                 <a href="#" class="btn1">
                   ADD
@@ -90,7 +103,11 @@ const SlideBar = () => {
           
           <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
-              <MDBCardBody className="text-dark">
+            <NavLink 
+            
+            to="/BookedServer"
+            className="nav-link active">
+            <span className="h6"> <MDBCardBody className="text-dark">
                 <MDBCardTitle className="h5 text-danger">Thyroid Profile</MDBCardTitle>
                 <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
@@ -101,7 +118,8 @@ const SlideBar = () => {
                 <MDBCardText className="h5">
                 ₹ 400
                 </MDBCardText>
-              </MDBCardBody>
+              </MDBCardBody></span>
+          </NavLink>
               <MDBCardFooter background="transparent" className="text-center">
                 <a href="#" class="btn1">
                   ADD
@@ -114,7 +132,11 @@ const SlideBar = () => {
           
           <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
-              <MDBCardBody className="text-dark">
+            <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6"><MDBCardBody className="text-dark">
                 <MDBCardTitle className="h5 text-danger">Complete Blood Count</MDBCardTitle>
                 <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
@@ -125,7 +147,8 @@ const SlideBar = () => {
                 <MDBCardText className="h5">
                 ₹ 300
                 </MDBCardText>
-              </MDBCardBody>
+              </MDBCardBody></span>
+          </NavLink>
               <MDBCardFooter background="transparent" className="text-center">
                 <a href="#" class="btn1">
                   ADD
@@ -137,7 +160,11 @@ const SlideBar = () => {
           
           <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
-              <MDBCardBody className="text-dark">
+            <NavLink 
+            
+            to="/BookedServer"
+            className="nav-link active">
+            <span className="h6"> <MDBCardBody className="text-dark">
                 <MDBCardTitle className="h5 text-danger">Lipid Profile</MDBCardTitle>
                 <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
@@ -148,7 +175,8 @@ const SlideBar = () => {
                 <MDBCardText className="h5">
                 ₹ 434
                 </MDBCardText>
-              </MDBCardBody>
+              </MDBCardBody></span>
+          </NavLink>
               <MDBCardFooter background="transparent" className="text-center">
                 <a href="#" class="btn1">
                   ADD

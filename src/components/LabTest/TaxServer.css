@@ -1,0 +1,14 @@
+.bgGreen{
+    height: 30px;
+    width: 60px;
+    background-color: green;
+    color: aliceblue;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ourBgColor1{
+    height: 200px;
+    width: 100%;
+}

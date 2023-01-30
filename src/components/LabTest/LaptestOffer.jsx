@@ -1,6 +1,7 @@
 import React from 'react'
 import './LaptestOffer.css'
 import SlideBar from './SlideBar'
+import { NavLink } from "react-router-dom";
 
 const LaptestOffer = () => {
   return (
@@ -8,13 +9,26 @@ const LaptestOffer = () => {
 <div id="carouselExampleControls" className="carousel slide h-100 w-100 mb-5" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="./assets/img/LabTestFirstSlider/Carousel_Img1.png" className="d-block w-100" alt="..."/>
+    <NavLink
+            
+            to="/TaxServer"
+          >
+             <img src="./assets/img/LabTestFirstSlider/Carousel_Img1.png" className="d-block w-100" alt="..."/>
+          </NavLink>
+     
     </div>
     <div className="carousel-item">
       <img src="./assets/img/LabTestFirstSlider/Carousel_Img2.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="./assets/img/LabTestFirstSlider/Carousel_Img3.png" className="d-block w-100" alt="..."/>
+      
+
+      <NavLink
+            
+            to="/TaxServer"
+          >
+            <img src="./assets/img/LabTestFirstSlider/Carousel_Img3.png" className="d-block w-100" alt="..."/>
+          </NavLink>
     </div>
    
   </div>

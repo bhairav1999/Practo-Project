@@ -5,6 +5,7 @@ import { MdNavigateNext } from "react-icons/md";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { NavLink } from "react-router-dom";
 
 
 import {
@@ -75,35 +76,62 @@ const TopMedical = () => {
               </MDBCardHeader>
               <MDBListGroup flush>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Ldl Cholesterol Test</span>{" "}
+                <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Ldl Cholesterol Test</span>
+          </NavLink>
+
+                  {" "}
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Hdl Cholesterol Test</span>{" "}
+                <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Hdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol Hdi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Vdl Cholesterol Test</span>{" "}
+                <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Vdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Total Cholesterol Test</span>{" "}
+                <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Total Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Triglycerides Blood Test</span>{" "}
+                <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Triglycerides Blood Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
@@ -129,35 +157,61 @@ const TopMedical = () => {
               </MDBCardHeader>
              <MDBListGroup flush>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Ldl Cholesterol Test</span>{" "}
+                  <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Ldl Cholesterol Test</span>
+          </NavLink>
+
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Hdl Cholesterol Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Hdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol Hdi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Vdl Cholesterol Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Vdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Total Cholesterol Test</span>{" "}
+                    <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Total Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Triglycerides Blood Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Triglycerides Blood Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
@@ -186,35 +240,61 @@ const TopMedical = () => {
               </MDBCardHeader>
              <MDBListGroup flush>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Ldl Cholesterol Test</span>{" "}
+                  <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Ldl Cholesterol Test</span>
+          </NavLink>
+
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Hdl Cholesterol Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Hdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol Hdi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Vdl Cholesterol Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Vdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Total Cholesterol Test</span>{" "}
+                    <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Total Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Triglycerides Blood Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Triglycerides Blood Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
@@ -245,35 +325,61 @@ const TopMedical = () => {
               </MDBCardHeader>
             <MDBListGroup flush>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Ldl Cholesterol Test</span>{" "}
+                  <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Ldl Cholesterol Test</span>
+          </NavLink>
+
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Hdl Cholesterol Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Hdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol Hdi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Vdl Cholesterol Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Vdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Total Cholesterol Test</span>{" "}
+                    <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Total Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Triglycerides Blood Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Triglycerides Blood Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
@@ -304,35 +410,61 @@ const TopMedical = () => {
               </MDBCardHeader>
              <MDBListGroup flush>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Ldl Cholesterol Test</span>{" "}
+                  <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Ldl Cholesterol Test</span>
+          </NavLink>
+
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Hdl Cholesterol Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Hdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol Hdi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Vdl Cholesterol Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Vdl Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Total Cholesterol Test</span>{" "}
+                    <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Total Cholesterol Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
                   </p>
                 </MDBListGroupItem>
                 <MDBListGroupItem className="click">
-                  <span className="h6">Triglycerides Blood Test</span>{" "}
+                   <NavLink 
+            
+            to="/LdlServer"
+            className="nav-link active">
+            <span className="h6">Triglycerides Blood Test</span>
+          </NavLink>
                   <p className="fs-7">
                     Also know as Cholesterol ldi Enzymatic colorimetric Method
                     Blood
