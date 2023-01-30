@@ -9,8 +9,8 @@ const CardGrid = () => {
                 <img src="/assets/img/cardgrid/CardgridImg1.png" alt="This is img1" width='100%' height='100%'/>
             </div>
             <div>
-                <h3>Instant Video Consultation</h3>
-                <p>Connect within 60 secs</p>
+                <h3 id='fontd'>Instant Video Consultation</h3>
+                <p id='fontdp'>Connect within 60 secs</p>
             </div>
         </div>
         
@@ -19,8 +19,8 @@ const CardGrid = () => {
             <img src="/assets/img/cardgrid/CardgrigImg2.jpg" alt="This is img1" width='100%' height='100%'/>
             </div>
             <div>
-                <h3>Find Doctors Near You</h3>
-                <p>Confirmed appoinment</p>
+                <h3 id='fontd'>Find Doctors Near You</h3>
+                <p id='fontdp'>Confirmed appoinment</p>
             </div>
         </div>
 
@@ -29,8 +29,8 @@ const CardGrid = () => {
             <img src="/assets/img/cardgrid/CardgridImg3.png" alt="This is img1" width='100%' height='100%'/>
             </div>
             <div>
-                <h3>Medicines</h3>
-                <p>Essentials at your doorstep</p>
+                <h3 id='fontd'>Medicines</h3>
+                <p id='fontdp'>Essentials at your doorstep</p>
             </div>
         </div>
 
@@ -39,8 +39,8 @@ const CardGrid = () => {
             <img src="/assets/img/cardgrid/CardgridImg5.png" alt="This is img1" width='100%' height='100%'/>
             </div>
             <div>
-                <h3>Lab Tests</h3>
-                <p>Sample pickup at your home</p>
+                <h3 id='fontd'>Lab Tests</h3>
+                <p id='fontdp'>Sample pickup at your home</p>
             </div>
         </div>
         
@@ -49,8 +49,8 @@ const CardGrid = () => {
             <img src="/assets/img/cardgrid/CardgridImg4.png" alt="This is img1" width='100%' height='100%'/>
             </div>
             <div>
-                <h3>Surgeries</h3>
-                <p>Safe and trusted surgery centers</p>
+                <h3 id='fontd'>Surgeries</h3>
+                <p id='fontdp'>Safe and trusted surgery centers</p>
             </div>
         </div>
     </div>

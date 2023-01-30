@@ -50,7 +50,7 @@ const LabtestFind = () => {
   };
   return (
     <>
-      <p className="h2  mt-5 mb-5">Find Tests by Health Concern</p>
+      <p className="h3  mt-5 mb-5"><b>Find Tests by Health Concern</b></p>
       <div className=" row mt-5 ">
         <Slider {...settings}>
         
@@ -89,7 +89,7 @@ const LabtestFind = () => {
           
         </Slider>
       </div>
-      <PopularLapTest/>
+      <PopularLapTest />
     </>
   );
 };

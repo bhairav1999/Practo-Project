@@ -1,6 +1,7 @@
 import React from "react";
-import OurPartnerLabs from "./OurPartnerLabs";
+import OurPartnerLabs from './OurPartnerLabs'
 import "./SlideBar.css";
+
 
 import { GrFormPrevious } from "react-icons/gr";
 import { MdNavigateNext } from "react-icons/md";
@@ -15,6 +16,7 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
+  
 } from "mdb-react-ui-kit";
 
 function SampleNextArrow(props) {
@@ -39,7 +41,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-const PopularLapTest = () => {
+const MensHealth = () => {
   var settings = {
     dots: false,
     infinite: true,
@@ -60,32 +62,17 @@ const PopularLapTest = () => {
   };
   return (
     <>
-      <p className="h3  mt-5 mb-4">
-        <b>Popular Health Checkup Packages</b>
-      </p>
-      <div
-        class="btn-group mb-3"
-        role="group"
-        aria-label="Basic outlined example"
-      >
-        <button type="button" class="btn btn-outline-dark rounded">
-          Featured Checkups{" "}
-        </button>
-        <button type="button" class="btn btn-outline-dark ms-3 rounded">
-          {" "}
-          Women's Health
-        </button>
-        <button type="button" class="btn btn-outline-dark ms-3 rounded">
-          Men's Health
-        </button>
-      </div>
-
+      <p className="h3  mt-5 mb-4"><b>Popular Health Checkup Packages</b></p>
+      <div class="btn-group mb-3" role="group" aria-label="Basic outlined example">
+  <button type="button" class="btn btn-outline-primary">Featured Checkups</button>
+  <button type="button" class="btn btn-outline-primary">Women's Health</button>
+  <button type="button" class="btn btn-outline-primary">Men's Health</button>
+</div>
       <div className="row">
         <Slider {...settings}>
           <div>
             <MDBCard>
-              <MDBCardImage
-                className="shadow1"
+              <MDBCardImage className="shadow1"
                 position="top"
                 alt="..."
                 src="https://images1-fabric.practo.com/dx/labs/PRL-HWP/logo.jpg/360x240"
@@ -120,8 +107,7 @@ const PopularLapTest = () => {
 
           <div>
             <MDBCard>
-              <MDBCardImage
-                className="shadow1"
+              <MDBCardImage className="shadow1"
                 position="top"
                 alt="..."
                 src="https://images1-fabric.practo.com/dx/labs/PRL-VDHC/logo.jpg/360x240"
@@ -156,8 +142,7 @@ const PopularLapTest = () => {
 
           <div>
             <MDBCard>
-              <MDBCardImage
-                className="shadow1"
+              <MDBCardImage className="shadow1"
                 position="top"
                 alt="..."
                 src="https://images1-fabric.practo.com/dx/labs/PRL-YIHC/logo_0gMZNaj.jpg/360x240"
@@ -192,8 +177,7 @@ const PopularLapTest = () => {
 
           <div>
             <MDBCard>
-              <MDBCardImage
-                className="shadow1"
+              <MDBCardImage className="shadow1"
                 position="top"
                 alt="..."
                 src="https://images1-fabric.practo.com/dx/labs/PRL-AYIHC/logo.jpg/360x240"
@@ -228,8 +212,7 @@ const PopularLapTest = () => {
 
           <div>
             <MDBCard>
-              <MDBCardImage
-                className="shadow1"
+              <MDBCardImage className="shadow1"
                 position="top"
                 alt="..."
                 src="https://images1-fabric.practo.com/dx/labs/PRL-CFBC/logo_XZ8poyA.jpg/360x240"
@@ -264,8 +247,7 @@ const PopularLapTest = () => {
 
           <div>
             <MDBCard>
-              <MDBCardImage
-                className="shadow1"
+              <MDBCardImage className="shadow1"
                 position="top"
                 alt="..."
                 src="https://images1-fabric.practo.com/dx/labs/PRL-AHCP/logo_92jA83w.jpg/360x240"
@@ -299,9 +281,8 @@ const PopularLapTest = () => {
           </div>
 
           <div>
-            <MDBCard>
-              <MDBCardImage
-                className="shadow1"
+            <MDBCard >
+              <MDBCardImage className="shadow1"
                 position="top"
                 alt="..."
                 src="https://images1-fabric.practo.com/dx/labs/PRL-BOHC/logo.jpeg/360x240"
@@ -334,15 +315,16 @@ const PopularLapTest = () => {
             </MDBCard>
           </div>
 
+          
+         
           <div>
             <MDBCard>
-              <MDBCardImage
-                className="shadow1"
+              <MDBCardImage  className="shadow1"
                 position="top"
                 alt="..."
                 src="https://images1-fabric.practo.com/dx/labs/PRL-FBC/logo.jpeg/360x240"
               />
-              <MDBCardBody>
+              <MDBCardBody >
                 <MDBCardTitle className="h5   ">
                   Basic Womer Health Checkup
                 </MDBCardTitle>
@@ -371,9 +353,9 @@ const PopularLapTest = () => {
           </div>
         </Slider>
       </div>
-      <OurPartnerLabs />
+      <OurPartnerLabs/>
     </>
   );
 };
 
-export default PopularLapTest;
+export default MensHealth;

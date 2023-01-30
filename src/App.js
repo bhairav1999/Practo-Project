@@ -10,7 +10,7 @@ import Header from "./components/medicines/Header/Header";
 import FindDocters from "./components/FindDocter/FindDocters";
 import HomeAllData from "./components/homepage/HomeAllData";
 import LoginPage from './components/FindDocter/LoginPage'
-import {Footer} from './components/homepage/Footer'
+import Footer from './components/homepage/Footer'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 

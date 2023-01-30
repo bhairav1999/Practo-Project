@@ -1,4 +1,4 @@
-
+/* 
 #navbar{
     display: flex;
     width: 100%;
@@ -72,4 +72,38 @@
     color: black;
 }
 
+ */
 
+
+
+ .NavLogo{
+   height: 26px;
+   width: 100px;
+ }
+
+ /* unvisited link */
+ 
+  /* mouse over link */
+  b:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  b:active {
+    color: green;
+   line-height: 5px;
+  }
+
+  .navmar{
+ margin-left: 180px;
+  }
+
+
+  .navbar{
+    display: flex;
+    border-bottom: 1px solid #d3d3d3;
+   
+    cursor: pointer;
+    position: sticky;
+    background-color: white;
+}

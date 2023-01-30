@@ -57,24 +57,24 @@ const SlideBar = () => {
   };
   return (
     <>
-    <p className="h2 mt-5 mb-5">Top Booked Diagnostic Tests</p>
+    <p className="h3 mt-5 mb-5"><b>Top Booked Diagnostic Tests</b></p>
       <div className=" row mt-5 ">
       
         <Slider {...settings}>
 
 
-          <div className="col col-sm-1 col-md-1 shadow shadow1 ">
+          <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
               <MDBCardBody className="text-dark">
-                <MDBCardTitle>COVID RT-PCR</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardTitle className="h5 text-danger">COVID RT-PCR</MDBCardTitle>
+                <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
                 </MDBCardText>
-                <MDBCardText className="fs-3">
+                <MDBCardText className="h6 bold">
                   E-Reports on next day
                 </MDBCardText>
-                <MDBCardText className="h2">
-                ₹ 750
+                <MDBCardText className="h5">
+                ₹ 850
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardFooter background="transparent" className="text-center">
@@ -88,18 +88,18 @@ const SlideBar = () => {
 
 
           
-          <div className="col col-sm-1 col-md-1 shadow shadow1 ">
+          <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
               <MDBCardBody className="text-dark">
-                <MDBCardTitle>COVID RT-PCR</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardTitle className="h5 text-danger">COVID RT-PCR</MDBCardTitle>
+                <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
                 </MDBCardText>
-                <MDBCardText className="fs-3">
+                <MDBCardText className="h6 bold">
                   E-Reports on next day
                 </MDBCardText>
-                <MDBCardText className="h2">
-                ₹ 750
+                <MDBCardText className="h5">
+                ₹ 850
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardFooter background="transparent" className="text-center">
@@ -112,18 +112,18 @@ const SlideBar = () => {
 
           
           
-          <div className="col col-sm-1 col-md-1 shadow shadow1 ">
+          <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
               <MDBCardBody className="text-dark">
-                <MDBCardTitle>COVID RT-PCR</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardTitle className="h5 text-danger">COVID RT-PCR</MDBCardTitle>
+                <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
                 </MDBCardText>
-                <MDBCardText className="fs-3">
+                <MDBCardText className="h6 bold">
                   E-Reports on next day
                 </MDBCardText>
-                <MDBCardText className="h2">
-                ₹ 750
+                <MDBCardText className="h5">
+                ₹ 850
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardFooter background="transparent" className="text-center">
@@ -135,18 +135,18 @@ const SlideBar = () => {
           </div>
 
           
-          <div className="col col-sm-1 col-md-1 shadow shadow1 ">
+          <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
               <MDBCardBody className="text-dark">
-                <MDBCardTitle>COVID RT-PCR</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardTitle className="h5 text-danger">COVID RT-PCR</MDBCardTitle>
+                <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
                 </MDBCardText>
-                <MDBCardText className="fs-3">
+                <MDBCardText className="h6 bold">
                   E-Reports on next day
                 </MDBCardText>
-                <MDBCardText className="h2">
-                ₹ 750
+                <MDBCardText className="h5">
+                ₹ 850
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardFooter background="transparent" className="text-center">
@@ -156,19 +156,18 @@ const SlideBar = () => {
               </MDBCardFooter>
             </MDBCard>
           </div>
-          
-          <div className="col col-sm-1 col-md-1 shadow shadow1 ">
+          <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
               <MDBCardBody className="text-dark">
-                <MDBCardTitle>COVID RT-PCR</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardTitle className="h5 text-danger">COVID RT-PCR</MDBCardTitle>
+                <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
                 </MDBCardText>
-                <MDBCardText className="fs-3">
+                <MDBCardText className="h6 bold">
                   E-Reports on next day
                 </MDBCardText>
-                <MDBCardText className="h2">
-                ₹ 750
+                <MDBCardText className="h5">
+                ₹ 850
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardFooter background="transparent" className="text-center">
@@ -177,20 +176,21 @@ const SlideBar = () => {
                 </a>
               </MDBCardFooter>
             </MDBCard>
-          </div> 
+          </div>
+
           
-          <div className="col col-sm-1 col-md-1 shadow shadow1 ">
+          <div className="col col-sm-1 col-md-1  shadow1 ">
             <MDBCard background="white" shadow="0" className="mb-3">
               <MDBCardBody className="text-dark">
-                <MDBCardTitle>COVID RT-PCR</MDBCardTitle>
-                <MDBCardText>
+                <MDBCardTitle className="h5 text-danger">COVID RT-PCR</MDBCardTitle>
+                <MDBCardText className="fs-6  text-secondary">
                   Known as Covid -19 Virus Qualitative Pcr Throat Swab
                 </MDBCardText>
-                <MDBCardText className="fs-3">
+                <MDBCardText className="h6 bold">
                   E-Reports on next day
                 </MDBCardText>
-                <MDBCardText className="h2">
-                ₹ 750
+                <MDBCardText className="h5">
+                ₹ 850
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardFooter background="transparent" className="text-center">

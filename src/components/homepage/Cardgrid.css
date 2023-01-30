@@ -61,3 +61,14 @@
     border-top-right-radius: 20px;
 
 }
+#fontd{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+#fontdp{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import RadioBtn from './RadioBtn';
 const Distr = () => {
   return (
     <>
@@ -31,7 +31,7 @@ Get all the benefits of <b>Diagnostic tests</b> and <b>Diagnostic tests</b> righ
 
 
 
-
+<RadioBtn/>
 
 
 

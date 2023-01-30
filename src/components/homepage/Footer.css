@@ -1,16 +1,4 @@
-.footer-container {
-    background-color: #353c7e;
-    color: aqua;
-}
-
-.footer-items {
-    font-size: 14px;
-    text-align: left;
-    display: flex;
-    max-width: 1180px;
-    margin: 0 auto;
-    justify-content: space-between;
-    margin-bottom: 28px;
-    margin-top: 10px;
-}
-
+.bgColor{
+    background-color:#28328C ;
+    height: 500px;
+    }

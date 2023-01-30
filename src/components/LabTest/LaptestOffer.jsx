@@ -16,9 +16,7 @@ const LaptestOffer = () => {
     <div className="carousel-item">
       <img src="./assets/img/LabTestFirstSlider/Carousel_Img3.png" className="d-block w-100" alt="..."/>
     </div>
-    <div className="carousel-item">
-      <img src="./assets/img/LabTestFirstSlider/Carousel_Img4.png" className="d-block w-100" alt="..."/>
-    </div>
+   
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -34,22 +32,14 @@ const LaptestOffer = () => {
 
 {/* start coll-12 */}
 
-<div className="row bgColor me-2 ">
-    <div className="col col-sm-2 col-md-2">
-     <img src="https://www.practo.com/tests/public/images/call_to_order.svg" alt="" className='rounded-circle rounded-circle1 img-fluid mt-3 ms-5'/>
-    </div>
-
-    <div className="col col-sm-5 col-md-5  mt-4">
-    <p className='h3 fw-bold'>Need help with booking your test?</p>
-    <p className='h5'>Our experts are here to help you</p>
-    </div>
-
-<div className="col col-sm-2 col-md-2"></div>
-    <div className="col col-sm-2 col-md-2 mt-5 h4">
-    <i class="bi bi-telephone-fill"></i> +91 8045684087
-    </div>
-    
+<div className="row  mt-5 text-center">
+  <div className="col col-sm-12 col-md-12 col-lg-12">
+  <img  className="bgcoloOffer" src="./assets/img/LabTestLogo/doctor.png" alt="" />
+  </div>
 </div>
+
+
+
 
 <SlideBar/>
 

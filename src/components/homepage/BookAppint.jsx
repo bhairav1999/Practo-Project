@@ -56,12 +56,12 @@ const BookAppint = () => {
     };
     return (
         <>
-            <div className='container'>
-                <h2>Read top articles from health experts </h2>
+            <div className='container mt-5'>
+                <p className='h2 mt-5'>Read top articles from health experts </p>
                 <div>
-        <h2> Responsive </h2>
+      
         <Slider {...settings}>
-          <div>
+          <div >
           <MDBCard>
       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
         <MDBCardImage src='/assets/img/bookappoint/Book2.jpg' fluid alt='...' />

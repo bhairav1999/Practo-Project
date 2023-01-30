@@ -1,100 +1,116 @@
-import React from "react";
-import "./ThousandCarosul.css";
+import React from 'react'
 import DownlodPracto from './DownlodPracto'
 
 const ThousandCarosul = () => {
-  return (
-    <>
-      <div class="container-fluid">
-        <div class="row mb-5">
-          <div class="col-12">
-            <h3 class="display- fw-bold text-center mt-7 mb-2">
-              Thousands of Happy Customers
-            </h3>
-          </div>
+    return (
+        <div>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-md-10 sm-6 col-center m-auto">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            </div>
+                            <div class="carousel-inner reviewContent">
+                                <h3 className='h2 mt-5' ><b>Thousands of Happy Customers</b></h3>
+                                <div class="carousel-item active team" data-bs-interval="10000">
+                                    <div class="col-md-6 sm-3 col-center m-auto team_member">
+                                        <p className='paragraph'>"Beautiful application with elegant UI Design. I found this app very useful. Placed Order for a few medicines and recieved in just two days. Recommended application."</p>
+                                        <div className='row content'>
+                                            {/* <div class="col-md-2 sm-1  team_img">
+                                                <img src="/Assesets/img/R1.png" alt="Team_image" />
+                                            </div> */}
+                                            <div class="col-md-4 sm-1 ">
+                                                <h6>Ayush Verma</h6>
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item team" data-bs-interval="2000">
+                                    <div class="col-md-6 sm-3 col-center m-auto team_member">
+                                        <p className='paragraph'>"Very useful app. It saves time and money and genuine. Keep going Practo. Thank you."</p>
+                                        <div className='row content'>
+                                            {/* <div class="col-md-2 sm-1  team_img">
+                                                <img src="/Assesets/img/R2.png" alt="Team_image" />
+                                            </div> */}
+                                            <div class="col-md-4 sm-1">
+                                                <h6>Rakesh Raki</h6>
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item team">
+                                    <div class="col-md-6 sm-3 col-center m-auto team_member">
+                                        <p className='paragraph'>"Most useful and saving more money on medicine."</p>
+                                        <div className='row content'>
+                                            {/* <div class="col-md-2 sm-1 team_img">
+                                                <img src="/Assesets/img/R3.png" alt="Team_image" />
+                                            </div> */}
+                                            <div class="col-md-4 sm-1 ">
+                                                <h6>Vamshi Krishna</h6>
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item team" data-bs-interval="2000">
+                                    <div class="col-md-6 sm-3 col-center m-auto team_member">
+                                        <p className='paragraph'>"Nice app for people who want to manage time for searching medicine."</p>
+                                        <div className='row content'>
+                                            {/* <div class="col-md-2 sm-1 team_img">
+                                                <img src="/Assesets/img/R4.png" alt="Team_image" />
+                                            </div> */}
+                                            <div class="col-md-4 sm-1">
+                                                <h6>Kishor Jha</h6>
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item team" data-bs-interval="2000">
+                                    <div class="col-md-6 sm-3 col-center m-auto team_member">
+                                        <p className='paragraph'>"I ordered medicine. It was delivered right time. With big discount."</p>
+                                        <div className='row content'>
+                                            {/* <div class="col-md-2 sm-1 team_img">
+                                                <img src="/Assesets/img/R5.png" alt="Team_image" />
+                                            </div> */}
+                                            <div class="col-md-4 sm-1">
+                                                <h6>Mahesh Sisara</h6>
+                                               
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <DownlodPracto/>
         </div>
-        <div
-          id="carouselExampleDark"
-          class="carousel carousel-dark slide"
-          data-bs-ride="carousel"
-        >
-          <ol class="carousel-indicators mb-6">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </ol>
-          <div class="carousel-inner mt-5 ">
-            <div class="carousel-item">
-              <div id="carousel">
-                <p className="fs-3">
-                  "Very professional phlebo. Excellent job in collecting the
-                  sample. No pain at all. Got my report also within 24 hours."
-                </p>
+    )
+}
 
-                <p className="fs-5">Malathi</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div id="carousel">
-                <p className="fs-3">
-                  "Everything went very well and smoothly. Technician was right
-                  on time. Really happy with the service."
-                </p>
-
-                <p className="fs-5">Ashish Garnaik</p>
-              </div>
-            </div>
-            <div class="carousel-item active">
-              <div id="carousel">
-                <p className="fs-3">
-                  "Good service, Practo is avoiding to stand in que for health
-                  checkup."
-                </p>
-
-                <p className="fs-5">Lalita Hegde</p>
-              </div>
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselWithIndicators"
-            role="button"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselWithIndicators"
-            role="button"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </a>
-        </div>
-      </div>
-      <DownlodPracto/>
-    </>
-  );
-};
-
-export default ThousandCarosul;
+export default ThousandCarosul

@@ -11,3 +11,11 @@
 .mt-7{
  margin-top: 85px;
 }
+
+.borderWhy {
+  
+   width: 120px;
+   height: 3px;
+   background: rgb(255, 168, 37);
+   margin: 10px auto;
+ }
