@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Offers = () => {
   return (
@@ -15,10 +16,15 @@ const Offers = () => {
             <div className="col-8 mt-4 mb-4 ml-4 me-3">
               <h4>Download the app & get ₹200 Health Cash</h4>
               <h6>
-                <div>
+                {/* <a
+                  href="https://play.google.com/store/apps/details?id=com.practo.fabric&referrer=af_tranid%3DK7yYc6dy5Cfr4-BLwrQVLA%26pid%3Dlandingpage%26c%3DOriginal"
+                  style={{ "text-decoration": "none" }}
+                > */}
+                <div className="text-dark">
                   Download App{" "}
                   <i className="bi bi-arrow-right-circle-fill ml-1"></i>
                 </div>
+                {/* </a> */}
               </h6>
             </div>
             <div className="col-2 mt-5   ">
@@ -44,9 +50,14 @@ const Offers = () => {
             <div className="col-8 mt-4 mb-4 ml-4 me-3">
               <h4>Consult with Specialists at just ₹100</h4>
               <h6>
-                <div>
-                  Consult Now
-                  <i className="bi bi-arrow-right-circle-fill ml-1"></i>
+                <div className="text-dark ">
+                  <Link
+                    to="/Consult-Doctor"
+                    style={{ "text-decoration": "none", color: "black" }}
+                  >
+                    Consult Now
+                    <i className="bi bi-arrow-right-circle-fill ml-1"></i>
+                  </Link>
                 </div>
               </h6>
             </div>

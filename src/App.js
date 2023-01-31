@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 
-
 import Navbar from "./components/homepage/Navbar";
 import LabTestAllComp from "./components/LabTest/LabTestAllComp";
 import Sergeries from "./components/sergeries/Sergeries";
@@ -9,11 +8,12 @@ import Consult from "./components/VideoConsult/Consult";
 import Header from "./components/medicines/Header/Header";
 import FindDocters from "./components/FindDocter/FindDocters";
 import HomeAllData from "./components/homepage/HomeAllData";
-import LoginPage from './components/FindDocter/LoginPage'
-import TaxServer from './components/LabTest/TaxServer'
-import LdlServer from './components/LabTest/LdlServer'
-import BookedServer from './components/LabTest/BookedServer'
-import Footer from './components/homepage/Footer'
+import LoginPage from "./components/FindDocter/LoginPage";
+import TaxServer from "./components/LabTest/TaxServer";
+import LdlServer from "./components/LabTest/LdlServer";
+import BookedServer from "./components/LabTest/BookedServer";
+import Footer from "./components/homepage/Footer";
+import ConsultDoctor from "./components/VideoConsult/ConsultDoctor/ConsultDoctor";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -21,10 +21,8 @@ function App() {
   return (
     <>
       <Router>
-      <Navbar />
+        <Navbar />
         <Routes>
-        
-
           <Route path="/" element={<HomeAllData />} />
           <Route path="/FindDocters" element={<FindDocters />} />
           <Route path="/Consult" element={<Consult />} />
@@ -36,8 +34,10 @@ function App() {
           <Route path="/TaxServer" element={<TaxServer />} />
           <Route path="/LdlServer" element={<LdlServer />} />
           <Route path="/BookedServer" element={<BookedServer />} />
+          <Route path="/BookedServer" element={<BookedServer />} />
+          <Route path="/Consult-Doctor" element={<ConsultDoctor />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </>
   );

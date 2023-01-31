@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const HealthQueries = () => {
   return (
@@ -73,16 +74,22 @@ const HealthQueries = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid">
-        <div class="row justify-content-around mt-5 mb-5 bg-dark">
-          <div class="p-3 mt-3 mb-3 ml-3 text-white">
-            <h3>Still delaying your health concerns ?</h3>
-            <h6 className="mt-4">Connect with India's top doctors online</h6>
-          </div>
 
-          <div class="p-3 mt-3 mb-3">
-            {" "}
-            <Button className="mt-4">Consult Now</Button>
+      <div className="container-fluid bg-dark text-white mt-5 mb-5">
+        <div className="container">
+          <div className="row ">
+            <div className="col-8 mt-5 mb-5 ">
+              <h3>Still delaying your health concerns ?</h3>
+              <h6 className="mt-4">Connect with India's top doctors online</h6>
+            </div>
+            <div className="col-2 mt-5 ">
+              <Link to="/Consult-Doctor">
+                <Button type="button" class="  btn btn-lg btn-primary ">
+                  {" "}
+                  Consult Now
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

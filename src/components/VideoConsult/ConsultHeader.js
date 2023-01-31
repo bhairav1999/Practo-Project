@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { Link } from "react-router-dom";
 
 const ConsultHeader = () => {
   return (
@@ -10,7 +11,6 @@ const ConsultHeader = () => {
           <h1 className="mt-5">
             Skip the travel! <br></br>
             Take Online Doctor Consultation
-            <h2>Sahil</h2>
           </h1>
           <p className="fs-5 mt-3">
             Private consultation + Audio call · Starts at just ₹199
@@ -42,8 +42,9 @@ const ConsultHeader = () => {
               width="4%"
             />
           </div>
-
-          <Button className="mt-4">Consult Now</Button>
+          <Link to="/Consult-Doctor">
+            <Button className="mt-4">Consult Now</Button>
+          </Link>
 
           <br></br>
           <div className=" mb-5"></div>
