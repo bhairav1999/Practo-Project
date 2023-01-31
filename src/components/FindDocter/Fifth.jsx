@@ -198,7 +198,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { GrFormPrevious } from "react-icons/gr";
 import { MdNavigateNext } from "react-icons/md";
-import './Slider.css'
+import './Fifth.css'
 import jsondata from '../../db1.json'
 
 function SampleNextArrow(props) {
