@@ -35,7 +35,7 @@ getBanner();
 </div>
 {/* Cart button */}
 <div className='col-sm-2 '>
-<button type="button" class="btn btn-primary btn-lg"><Icon.CartFill></Icon.CartFill>  VIEW CART</button>
+<button type="button" class="btn btn-primary btn-lg"><Icon.CartFill></Icon.CartFill>  Save CART</button>
 </div>
     </div>
     <hr />
