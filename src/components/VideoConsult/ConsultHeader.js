@@ -10,6 +10,7 @@ const ConsultHeader = () => {
           <h1 className="mt-5">
             Skip the travel! <br></br>
             Take Online Doctor Consultation
+            <h2>Sahil</h2>
           </h1>
           <p className="fs-5 mt-3">
             Private consultation + Audio call · Starts at just ₹199
