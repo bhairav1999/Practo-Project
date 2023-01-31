@@ -4,17 +4,31 @@
     margin-top: 30px;
 }
 
-.heading h4{
-    margin-bottom: 20px;
-}
-.heading p{
-    margin-bottom: 20px;
-}
 
-.card-img-top{
-  height: 200px;
+.pimage{
+  height: 40vh;
+    width:  10vw;
+
  
 }
+.pcard{
+ height: 30vh;
+    width:  20vw;
+    margin-left: 5px;
+}
+.pcard:hover{
+  background-color: rgb(222, 228, 154);
+  border: 2px solid brown;
+}
+.pcol{
+ height: 70vh;
+    width:  10vw; 
+}
+
+.pTitle{
+height: 50px;
+}
+
 /* //----------------------------------------- */
 /* /---------------control-btn-------------/ */
 .control-btn button {

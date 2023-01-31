@@ -1,0 +1,51 @@
+[
+    {
+       "id" :1,
+       "Heading":"What our users have to say",
+       "paragraph":"Beautiful application with elegant UI Design. I found this app very useful. Placed Order for a few medicines and recieved in just two days. Recommended application.",
+       "Rimage":"/assets/img/reviewimg/R1.png",
+"viewerName":"Ayush Verma",
+"ReviewTime":"Oct 5, 2018 at 11:33 AM"
+       
+    },
+
+    
+    {
+        "id" :2,
+        "Heading":"What our users have to say",
+        "paragraph":"Very useful app. It saves time and money and genuine. Keep going Practo. Thank you.",
+        "Rimage":"/assets/img/reviewimg/R2.png",
+ "viewerName":"Rakesh Raki",
+ "ReviewTime":"Nov 11, 2018 at 11:27 AM"
+        
+     },
+
+     {
+        "id" :3,
+        "Heading":"What our users have to say",
+        "paragraph":"Most useful and saving more money on medicine.",
+        "Rimage":"/assets/img/reviewimg/R3.png",
+ "viewerName":"Vamshi Krishna",
+ "ReviewTime":"Oct 3, 2018 at 7:13 PM"
+        
+     },
+     {
+        "id" :4,
+        "Heading":"What our users have to say",
+        "paragraph":"Nice app for people who want to manage time for searching medicine.",
+        "Rimage":"/assets/img/reviewimg/R4.png",
+ "viewerName":"Kishor Jha",
+ "ReviewTime":"Sep 11, 2018 at 8:52 PM"
+        
+     },
+
+     {
+        "id" :5,
+        "Heading":"What our users have to say",
+        "paragraph":"I ordered medicine. It was delivered right time. With big discount.",
+        "Rimage":"/assets/img/reviewimg/R5.png",
+ "viewerName":"Mahesh Sisara",
+ "ReviewTime":"Sep 26, 2018 at 4:56 PM"
+        
+     }
+]

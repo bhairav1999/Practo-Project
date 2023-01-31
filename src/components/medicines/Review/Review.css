@@ -6,8 +6,7 @@
 }
 
   .team{
-    height: 200px;
-    margin-top: 10px;
+    height: 250px;
     text-align: center;
   }
   
@@ -20,6 +19,9 @@
   .team .team_member .paragraph{
     font-size: 20px;
     text-decoration: #0c0c0c;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
     
   }
 
