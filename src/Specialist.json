@@ -1,0 +1,42 @@
+[
+  {
+    "fever": {
+      "name": "Gynaecology ",
+      "price": "499"
+    },
+
+    "headache": {
+      "name": "Sexology",
+      "price": "₹599"
+    },
+
+    "Cold": {
+      "name": "General physician",
+      "price": "₹399"
+    },
+    "Pregnancy": {
+      "name": "Dermatology",
+      "price": "₹499"
+    },
+    "a": {
+      "name": "Dermatology",
+      "price": "₹499"
+    },
+    "b": {
+      "name": "phychitry",
+      "price": "₹499"
+    },
+    "c": {
+      "name": "Stomach",
+      "price": "₹399"
+    },
+    "e": {
+      "name": "pedia",
+      "price": "₹499"
+    },
+    "d": {
+      "name": "Urology",
+      "price": "₹499"
+    }
+  }
+]
