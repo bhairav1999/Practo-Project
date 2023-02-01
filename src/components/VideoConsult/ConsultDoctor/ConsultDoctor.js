@@ -24,7 +24,7 @@ const ConsultDoctor = () => {
     }
 
     console.log(
-      `Name : ${input}  And Specialist  : ${specialist}  And Patient Name  : ${pname} And Contact No : ${contactNo}`
+      `Name : ${input}  And Specialist  : ${specialist}  And Patient Name  : ${pname} And Contact No: ${contactNo}`
     );
 
     navigate("/");
