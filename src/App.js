@@ -9,7 +9,7 @@ import Consult from "./components/VideoConsult/Consult";
 import Header from "./components/medicines/Header/Header";
 import FindDocters from "./components/FindDocter/FindDocters";
 import HomeAllData from "./components/homepage/HomeAllData";
-import LoginPage from './components/FindDocter/LoginPage'
+import LoginApp from './components/LabTest/SubLabTest/LoginApp'
 import TaxServer from './components/LabTest/TaxServer'
 import LdlServer from './components/LabTest/LdlServer'
 import BookedServer from './components/LabTest/BookedServer'
@@ -32,7 +32,7 @@ function App() {
 
           <Route path="/LabTestAllComp" element={<LabTestAllComp />} />
           <Route path="/Sergeries" element={<Sergeries />} />
-          <Route path="/LoginPage" element={<LoginPage />} />
+          <Route path="/LoginApp" element={<LoginApp />} />
           <Route path="/TaxServer" element={<TaxServer />} />
           <Route path="/LdlServer" element={<LdlServer />} />
           <Route path="/BookedServer" element={<BookedServer />} />

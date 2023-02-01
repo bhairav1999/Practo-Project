@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "img":"./assets/img/LabTestFirstSlider/Carousel_Img1.png"
+    },
+    {
+        "id": "2",
+        "img":"./assets/img/LabTestFirstSlider/Carousel_Img2.jpg"
+    },
+    {
+        "id": "3",
+        "img":"./assets/img/LabTestFirstSlider/Carousel_Img3.png"
+    }
+]

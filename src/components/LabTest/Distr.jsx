@@ -1,4 +1,5 @@
 import React from 'react'
+import New from './New'
 
 
 const Distr = () => {
@@ -41,7 +42,7 @@ Get all the benefits of <b>Diagnostic tests</b> and <b>Diagnostic tests</b> righ
 
 
 
-
+<New/>
 
 
     </>
