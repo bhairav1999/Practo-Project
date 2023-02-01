@@ -1,11 +1,33 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './LaptestOffer.css'
 import SlideBar from './SlideBar'
 import { NavLink } from "react-router-dom";
+import axios from 'axios';
 
 const LaptestOffer = () => {
+
+
+const [laboffer ,setlaboffer] =useState([])
+
+useEffect (()=>{
+  async function offerdata (){
+    const res =await axios.get("./alldata/LabTest/offer.json")
+
+if (res.data.length > 0) {
+  setlaboffer(res.data)
+  
+}
+
+  }
+  offerdata()
+},[])
+
   return (
     <>
+
+
+
+{}
 <div id="carouselExampleControls" className="carousel slide h-100 w-100 mb-5" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">

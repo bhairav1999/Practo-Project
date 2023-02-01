@@ -13,6 +13,7 @@ import Product from '../MedicineProduct/Product';
 
 
 function BrowserMedicines() {
+  
   const [health, setHealth] =useState();
   const [categories,setCategories]=useState()
  useEffect( ()=>{
