@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import { GrFormPrevious } from "react-icons/gr";
 import { MdNavigateNext } from "react-icons/md";
+import { AiOutlineRight } from "react-icons/ai";
+
 import "./special.css";
 import { Button } from "react-bootstrap";
-import { SpecialData } from "./SpecialData";
+import axios from "axios";
+import { NavLink } from "react-router-dom";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -32,6 +35,16 @@ function SamplePrevArrow(props) {
 }
 
 const Special = () => {
+  const [SpecialData, setSpecialData] = useState([]);
+  async function fetchData() {
+    const res = await axios.get(`./alldata/VideoConsult/special.json`);
+    if (res.data.length > 0) {
+      setSpecialData(res.data);
+    }
+  }
+  useEffect(() => {
+    fetchData();
+  }, []);
   var settings = {
     dots: false,
     infinite: true,
@@ -60,12 +73,14 @@ const Special = () => {
           <h2 className="">25+ Specialities</h2>
         </div>
         <div className="col-md-6  d-flex justify-content-end">
-          <Button className="mt-4">See All Specialities</Button>
+          <NavLink to="/Consult-Doctor">
+            <Button className="mt-4">See All Specialities</Button>
+          </NavLink>
         </div>
       </div>
       <div className="row mt-3 mb-5">
         <div className="col-md-6 ">
-          <h6 className="">Consult with top doctors across specialities</h6>
+          <h5 className="">Consult with top doctors across specialities</h5>
         </div>
         <div className="col-md-4"></div>
       </div>
@@ -84,7 +99,15 @@ const Special = () => {
                   />
                   <h5 className="card-title mt-2">{user.name}</h5>
                   <p class="card-text">{user.price}</p>
-                  <p class="card-text  ">{user.button}</p>
+                  <NavLink
+                    to="/Consult-Doctor"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <span class="card-text  ">
+                      {user.button}
+                      <AiOutlineRight />
+                    </span>
+                  </NavLink>
                 </div>
               </div>
             );

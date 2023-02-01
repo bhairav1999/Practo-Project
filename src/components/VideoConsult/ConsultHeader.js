@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { Link } from "react-router-dom";
 
 const ConsultHeader = () => {
   return (
@@ -41,8 +42,9 @@ const ConsultHeader = () => {
               width="4%"
             />
           </div>
-
-          <Button className="mt-4">Consult Now</Button>
+          <Link to="/Consult-Doctor">
+            <Button className="mt-4">Consult Now</Button>
+          </Link>
 
           <br></br>
           <div className=" mb-5"></div>

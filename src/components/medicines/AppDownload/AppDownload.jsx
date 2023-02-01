@@ -1,6 +1,7 @@
 import React from 'react'
 import './AppDownload.css'
 //import SkinCare from '../Main1/SkinCare/SkinCare';
+import { NavLink } from 'react-router-dom';
 function AppDownload() {
 
   function myFunction() {
@@ -37,7 +38,7 @@ function AppDownload() {
               <input type="text" name="Country code" value="+91" size="1" className='inputPhoneNo' /><input type="text" size={30} className='inputPhoneNo' placeholder='Enter phone Number' />  <button type="button" class="btn btn-primary ">send App Link</button>
             </div>
             <div className='col-md-8 sm-4'>
-              <button type="button" class="btn  btn-sm playstorebtn"><img src="/assets/img/appDownloadimg/play-store .png" /></button>  <button type="button" class="btn  btn-sm playstorebtn"><img src="/assets/img/appDownloadimg/app-store.png" /></button>
+              < a href="https://app.appsflyer.com/com.practo.fabric?pid=Practo-order&amp;c=homepage" class="btn  btn-sm playstorebtn"><img src="/assets/img/appDownloadimg/play-store .png" /></a>  <button type="button" class="btn  btn-sm playstorebtn"><img src="/assets/img/appDownloadimg/app-store.png" /></button>
             </div>
           </div>
         </div>
@@ -97,3 +98,4 @@ export default AppDownload
 
 
 
+{/* <a href="https://app.appsflyer.com/com.practo.fabric?pid=Practo-order&amp;c=homepage"><img src="//www.practostatic.com/ecommerce-assets/static/media/home/desktop/play-store.3556fc81.png" class="u-cur--ptr"></a> */}

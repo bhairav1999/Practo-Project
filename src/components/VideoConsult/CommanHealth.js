@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,7 +7,9 @@ import { GrFormPrevious } from "react-icons/gr";
 import { MdNavigateNext } from "react-icons/md";
 import "./special.css";
 import { Button } from "react-bootstrap";
-import { CommanData } from "./CommanHealthData";
+import axios from "axios";
+import { NavLink } from "react-router-dom";
+// import { CommanData } from "./CommanHealthData";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -32,6 +34,19 @@ function SamplePrevArrow(props) {
 }
 
 const CommanHealth = () => {
+  const [commanData, setCommanData] = useState([]);
+  async function fetchData() {
+    const res = await axios.get(
+      "./alldata/VideoConsult/CommanHeadlthData.json"
+    );
+
+    if (res.data.length > 0) {
+      setCommanData(res.data);
+    }
+  }
+  useEffect(() => {
+    fetchData();
+  }, []);
   var settings = {
     dots: false,
     infinite: true,
@@ -60,30 +75,38 @@ const CommanHealth = () => {
           <h2 className="">Common Health Concerns</h2>
         </div>
         <div className="col-md-6  d-flex justify-content-end">
-          <Button className="mt-4">See All Specialities</Button>
+          <NavLink to="/Consult-Doctor">
+            <Button className="mt-4">See All Specialities</Button>
+          </NavLink>
         </div>
       </div>
       <div className="row mt-3 mb-5">
         <div className="col-md-6 ">
-          <h6 className="">Consult a doctor online for any health issue</h6>
+          <h5 className="">Consult a doctor online for any health issue</h5>
         </div>
         <div className="col-md-4"></div>
       </div>
 
       <Slider {...settings}>
-        {CommanData &&
-          CommanData.map((user, i) => {
+        {commanData &&
+          commanData.map((user, i) => {
             return (
               <div key={i} class="card m-5" style={{ width: "50px" }}>
                 <img src={user.image} class="card-img-top" alt="..." />
 
                 <div class="card-body">
-                  <h6 class="card-title">{user.name}</h6>
+                  <h5 class="card-title">{user.name}</h5>
                   <p class="card-text">{user.price}</p>
-                  <span class="card-text  ">
-                    {user.button}
-                    <AiOutlineRight />
-                  </span>
+
+                  <NavLink
+                    to="/Consult-Doctor"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <span class="card-text  ">
+                      {user.button}
+                      <AiOutlineRight />
+                    </span>
+                  </NavLink>
                 </div>
               </div>
             );

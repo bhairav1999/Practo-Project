@@ -50,10 +50,6 @@ const data = {
 
 const styles = {
   bgColor: "white",
-  // titleTextColor: "blue",
-  // rowTitleColor: "blue",
-  // rowContentColor: "grey",
-  // arrowColor: "red",
 };
 
 const config = {

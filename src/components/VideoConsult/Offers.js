@@ -1,6 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Offers = () => {
+  const DownloadPracto = () => {
+    window.location.replace(
+      "https://play.google.com/store/apps/details?id=com.practo.fabric&hl=en_IN&gl=US"
+    );
+  };
+
   return (
     <div className="container">
       <div className="row mt-5">
@@ -15,7 +22,7 @@ const Offers = () => {
             <div className="col-8 mt-4 mb-4 ml-4 me-3">
               <h4>Download the app & get ₹200 Health Cash</h4>
               <h6>
-                <div>
+                <div className="text-dark" onClick={DownloadPracto}>
                   Download App{" "}
                   <i className="bi bi-arrow-right-circle-fill ml-1"></i>
                 </div>
@@ -44,9 +51,14 @@ const Offers = () => {
             <div className="col-8 mt-4 mb-4 ml-4 me-3">
               <h4>Consult with Specialists at just ₹100</h4>
               <h6>
-                <div>
-                  Consult Now
-                  <i className="bi bi-arrow-right-circle-fill ml-1"></i>
+                <div className="text-dark ">
+                  <Link
+                    to="/Consult-Doctor"
+                    style={{ "text-decoration": "none", color: "black" }}
+                  >
+                    Consult Now
+                    <i className="bi bi-arrow-right-circle-fill ml-1"></i>
+                  </Link>
                 </div>
               </h6>
             </div>
