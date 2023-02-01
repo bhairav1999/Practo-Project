@@ -70,7 +70,7 @@ getCondiations();
   return (
     <>
       <div className='container'>
-        <div className='heading'>
+        <div className='heading justify-content-center'>
           <h4>Browser medicines & health products</h4>
           <p> Health Condiation</p>
         </div>
@@ -97,7 +97,7 @@ getCondiations();
 
       {/* //!Catagories--------------------------------------------------- */}
       <div className='container'>
-        <div className='heading'>
+        <div className='heading justify-content-center'>
           <p> Categories</p>
         </div>
         <div className='row'>

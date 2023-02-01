@@ -6,6 +6,7 @@ import LabTestAllComp from "./components/LabTest/LabTestAllComp";
 import Sergeries from "./components/sergeries/Sergeries";
 import Consult from "./components/VideoConsult/Consult";
 import Header from "./components/medicines/Header/Header";
+import SingleProduct from "./components/medicines/MedicineProduct/SingleProduct";
 import FindDocters from "./components/FindDocter/FindDocters";
 import HomeAllData from "./components/homepage/HomeAllData";
 import LoginPage from "./components/FindDocter/LoginPage";
@@ -27,6 +28,7 @@ function App() {
           <Route path="/FindDocters" element={<FindDocters />} />
           <Route path="/Consult" element={<Consult />} />
           <Route path="/Header" element={<Header />} />
+          <Route path="/SingleProduct/:pid" element={<SingleProduct />} />
 
           <Route path="/LabTestAllComp" element={<LabTestAllComp />} />
           <Route path="/Sergeries" element={<Sergeries />} />

@@ -16,7 +16,7 @@ const Navbar = () => {
 
 
 <nav class="navbar navbar-expand-lg shadow mt-1">
-  <div class="container  ">
+  <div class="container-fluid ">
 
   <div className="logo">
   <NavLink className="nav-link active ms-2 " to="/">

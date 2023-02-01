@@ -13,10 +13,15 @@
     height: 30vh;
     width:  20vw;
     margin-left: 5px; 
-  
+    transition: transform.5s;  
+   border: 1px solid black;
 }
 
+.imageResponsive:hover{
+  transform: scale(0.7);
+border: 5px solid purple;
 
+}
 
 /* //----------------------------------------- */
 /* /---------------control-btn-------------/ */
@@ -48,6 +53,7 @@
   }
   .control-btn .icon {
     font-size: 25px;
+    color: black;
   }
   /* /---------------control-btn-------------/ */
 
