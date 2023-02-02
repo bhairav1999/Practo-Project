@@ -17,6 +17,7 @@ import Footer from "./components/homepage/Footer";
 import ConsultDoctor from "./components/VideoConsult/ConsultDoctor/ConsultDoctor";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ReadMore from "./components/FindDocter/ReadMore";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
           <Route path="/Consult" element={<Consult />} />
           <Route path="/Header" element={<Header />} />
           <Route path="/SingleProduct/:pid" element={<SingleProduct />} />
-
+          <Route path="/ReadMore" element={<ReadMore />} />
           <Route path="/LabTestAllComp" element={<LabTestAllComp />} />
           <Route path="/Sergeries" element={<Sergeries />} />
           <Route path="/LoginPage" element={<LoginPage />} />

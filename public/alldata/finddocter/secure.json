@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "img": "https://www.practo.com/providers/static/images/pages/company/promo.png",
+        "title": "We never send promotions to your walk-in patients",
+        "content": " As per our privacy policy, we never reach out to your walk-in patients or send any promotional communication to them. The only way for any patient to receive any promotion from us is if they visit Practo.com, or download our app independently and give us permission to contact them. Practo does not have any access to your patient database stored in Ray."
+    },
+    {
+        "id": "2",
+        "img": "https://www.practo.com/providers/static/images/pages/company/backups.png",
+        "title": "Your data has multiple encrypted backups",
+        "content": " All data is backed up and versioned multiple times at secure locations across the world. We also employ a smart feature called point-in-time recovery to retrieve the data from a specific time period."
+    },
+    {
+        "id": "3",
+        "img": "https://www.practo.com/providers/static/images/pages/company/share.png",
+        "title": "We don't sell your data",
+        "content": "  We are fully aware of the sensitivity of your healthcare information and take data privacy extremely seriously. We go to great lengths to protect it and will never ever sell it to anyone."
+    },
+    {
+        "id": "4",
+        "img": "https://www.practo.com/providers/static/images/pages/company/data-security.png",
+        "title": "We never mix doctors' data with patients'data",
+        "content": " Our platform uses industry-grade firewalls and follows a stringent privacy policy designed to keep providers' data separate from patients'data."
+    }
+]
