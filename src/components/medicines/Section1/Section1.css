@@ -1,6 +1,6 @@
-.card-img-top{
+/* .simage{
     height: 250px;
-}
+} */
 
 .para{
     color: rgb(82, 75, 75);
@@ -11,3 +11,12 @@
 .appUse{
    background-color: rgb(222, 237, 243);
 }
+
+.scard{
+    transition: transform.5s; 
+}
+
+.scard:hover{
+    transform: scale(0.7);
+    border: solid blue;
+  }

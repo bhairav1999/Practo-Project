@@ -1,0 +1,160 @@
+[
+    {
+        "pid":1,
+        "pimage":"/assets/img/productimg/p1.png",
+        "pTitle":"Zincovit Tablet covid_essential",
+        "Prize":"105.00",
+        "category":"Capsules"
+    },
+
+    {
+        "pid":2,
+        "pimage":"/assets/img/productimg/p2.png",
+        "pTitle":"NANO LEO CAPSULES",
+        "Prize":"750.00",
+        "category":"Capsules"
+    },
+    {
+        "pid":3,
+        "pimage":"/assets/img/productimg/p3.png",
+        "pTitle":"BECOSULES CAPSULE 20 S",
+        "Prize":"50.20",
+        "category":"Capsules"
+    },
+    {
+        "pid":4,
+        "pimage":"/assets/img/productimg/p4.png",
+        "pTitle":"PREGA NEWS CARD 1'S",
+        "Prize":"60.00",
+        "category":"others"
+
+    },
+    {
+        "pid":5,
+        "pimage":"/assets/img/productimg/p5.png",
+        "pTitle":"SUPRADYN DAILY TABLET 15'S",
+        "Prize":"54.90",
+        "category":"Capsules"
+    },
+    {
+        "pid":6,
+        "pimage":"/assets/img/productimg/p6.png",
+        "pTitle":"NEROBION FORTE TABLET 30'S",
+        "Prize":"38.10",
+        "category":"Capsules"
+
+    },
+    
+    {
+        "pid":7,
+        "pimage":"/assets/img/productimg/p7.png",
+        "pTitle":"SHELAL 500MG TABLET 15'S",
+        "Prize":"105.00",
+        "category":"Capsules"
+    },
+    {
+        "pid":8,
+        "pimage":"/assets/img/productimg/p8.png",
+        "pTitle":"VICKS VAPORUB 10GM",
+        "Prize":"40.00",
+        "category":"others"
+    },
+    {
+        "pid":9,
+        "pimage":"/assets/img/productimg/p9.png",
+        "pTitle":"ELECTRAL POWDER Covid_essential 21.8GM",
+        "Prize":"21.95",
+        "category":"others"
+    },
+    {
+        "pid":10,
+        "pimage":"/assets/img/productimg/p10.png",
+        "pTitle":"BOOM69 CAPSULES 30'S",
+        "Prize":"870.00",
+        "category":"Capsules"
+    },
+    {
+        "pid":11,
+        "pimage":"/assets/img/productimg/p11.png",
+        "pTitle":"MOOV SPRAY PAIN_CARE 80GM",
+        "Prize":"309.00",
+        "category":"others"
+    },
+    {
+        "pid":12,
+        "pimage":"/assets/img/productimg/p12.png",
+        "pTitle":"DETTOL ANTISEPTIC LIQUID 250ML",
+        "Prize":"127.77",
+        "category":"others"
+    },
+    {
+        "pid":13,
+        "pimage":"/assets/img/productimg/p13.png",
+        "pTitle":"SHELCAL XT TABLET 15'S",
+        "Prize":"377.25",
+        "category":"Capsules"
+    },
+    {
+        "pid":14,
+        "pimage":"/assets/img/productimg/p14.png",
+        "pTitle":"VOLINI SPRY 60ML",
+        "Prize":"208.00",
+        "category":"others"
+    },
+    {
+        "pid":15,
+        "pimage":"/assets/img/productimg/p15.png",
+        "pTitle":"KOFLET SYRUP 100ML",
+        "Prize":"100.00",
+        "category":"others"
+    },
+    {
+        "pid":16,
+        "pimage":"/assets/img/productimg/p16.png",
+        "pTitle":"KAMASUTRA CONDOMS DOTTED SEXUAL_WELLNESS 12'S",
+        "Prize":"120.00",
+        "category":"others"
+    },
+    {
+        "pid":17,
+        "pimage":"/assets/img/productimg/p17.png",
+        "pTitle":"RETRAFOL PLUS TABLET 10'S",
+        "Prize":"218.00",
+        "category":"Capsules"
+    },
+    {
+        "pid":18,
+        "pimage":"/assets/img/productimg/p18.png",
+        "pTitle":"PUDIN HARA CAPSULES 10'S",
+        "Prize":"30.00"
+    },
+    {
+        "pid":19,
+        "pimage":"/assets/img/productimg/p19.PNG",
+        "pTitle":"SHELCAL HD TABLET 15'S",
+        "Prize":" 124.95",
+        "category":"Capsules"
+    },
+    {
+        "pid":20,
+        "pimage":"/assets/img/productimg/p20.png",
+        "pTitle":"SCALPE+ SHAMPOO 75ML",
+        "Prize":"280.00",
+        "category":"others"
+    },
+    {
+        "pid":21,
+        "pimage":"/assets/img/productimg/p21.png",
+        "pTitle":"KERABOOST TABLET 10'S",
+        "Prize":"191.00",
+        "category":"Capsules"
+    },
+    {
+        "pid":22,
+        "pimage":"/assets/img/productimg/p22.png",
+        "pTitle":"HAIRBLESS TABLET 10'S",
+        "Prize":"215.00",
+        "category":"Capsules"
+    }
+
+]
