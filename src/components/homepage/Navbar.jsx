@@ -76,13 +76,13 @@ const Navbar = () => {
               
             <NavLink
             className="btn ms-3 btn-outline-dark my-2 my-sm-0  "
-            to="/LoginForm"
+            to="/"
          >
             Login
           </NavLink>
           <NavLink
             className="btn btn-outline-dark my-2 my-sm-0 ms-2 ml-3 "
-            to="/register"
+            to="/LoginApp"
           >
             Register
           </NavLink>

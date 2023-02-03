@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from "react-router-dom";
 const Fourth = () => {
 
 
@@ -18,7 +18,12 @@ const Fourth = () => {
                                 <p className="card-text"><h5>1Fees starting at ₹99</h5>
                                     <h5>Verified doctors respond in 5 minutes</h5>
                                     <h5> 100% Private and confidential </h5></p>
-                                <a href="#" className="btn btn-primary">Consult Now</a>
+                                <NavLink
+                                    to="/Consult"
+                                >
+                                    <button className="btn btn-primary">Consult Now</button>
+                                </NavLink>
+
                                 <img
                                     className="rounded-circle  "
                                     src="https://media3.giphy.com/media/MVAk5Eq7JNQ4ggqgFJ/giphy.gif?cid=790b761136453a72edad185cc4945019538a3a6cfc8eae04&rid=giphy.gif&ct=s"

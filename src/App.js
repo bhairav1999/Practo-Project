@@ -9,15 +9,23 @@ import Header from "./components/medicines/Header/Header";
 import SingleProduct from "./components/medicines/MedicineProduct/SingleProduct";
 import FindDocters from "./components/FindDocter/FindDocters";
 import HomeAllData from "./components/homepage/HomeAllData";
-import LoginPage from "./components/FindDocter/LoginPage";
-import TaxServer from "./components/LabTest/TaxServer";
-import LdlServer from "./components/LabTest/LdlServer";
-import BookedServer from "./components/LabTest/BookedServer";
-import Footer from "./components/homepage/Footer";
+
+import LoginApp from './components/LabTest/SubLabTest/LoginApp'
+import TaxServer from './components/LabTest/TaxServer'
+import LdlServer from './components/LabTest/LdlServer'
+import BookedServer from './components/LabTest/BookedServer'
+import Footer from './components/homepage/Footer'
+
+
+
+
 import ConsultDoctor from "./components/VideoConsult/ConsultDoctor/ConsultDoctor";
+import Textedit11 from "./components/homepage/Textedit11";
+
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DoctorList from "./components/sergeries/DoctorList";
+import ReadMore from "./components/FindDocter/ReadMore";
 
 function App() {
   return (
@@ -30,16 +38,17 @@ function App() {
           <Route path="/Consult" element={<Consult />} />
           <Route path="/Header" element={<Header />} />
           <Route path="/SingleProduct/:pid" element={<SingleProduct />} />
-
+          <Route path="/ReadMore" element={<ReadMore />} />
           <Route path="/LabTestAllComp" element={<LabTestAllComp />} />
           <Route path="/Sergeries" element={<Sergeries />} />
-          <Route path="/LoginPage" element={<LoginPage />} />
+          <Route path="/LoginApp" element={<LoginApp />} />
           <Route path="/TaxServer" element={<TaxServer />} />
           <Route path="/LdlServer" element={<LdlServer />} />
           <Route path="/BookedServer" element={<BookedServer />} />
           <Route path="/BookedServer" element={<BookedServer />} />
           <Route path="/Consult-Doctor" element={<ConsultDoctor />} />
           <Route path="/Doctor-List" element={<DoctorList />} />
+          <Route path="/Textedit11" element={<Textedit11/>} />
         </Routes>
         <Footer />
       </Router>

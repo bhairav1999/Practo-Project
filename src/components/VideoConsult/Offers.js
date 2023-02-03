@@ -2,6 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Offers = () => {
+  const DownloadPracto = () => {
+    window.location.replace(
+      "https://play.google.com/store/apps/details?id=com.practo.fabric&hl=en_IN&gl=US"
+    );
+  };
+
   return (
     <div className="container">
       <div className="row mt-5">
@@ -16,15 +22,10 @@ const Offers = () => {
             <div className="col-8 mt-4 mb-4 ml-4 me-3">
               <h4>Download the app & get ₹200 Health Cash</h4>
               <h6>
-                {/* <a
-                  href="https://play.google.com/store/apps/details?id=com.practo.fabric&referrer=af_tranid%3DK7yYc6dy5Cfr4-BLwrQVLA%26pid%3Dlandingpage%26c%3DOriginal"
-                  style={{ "text-decoration": "none" }}
-                > */}
-                <div className="text-dark">
+                <div className="text-dark" onClick={DownloadPracto}>
                   Download App{" "}
                   <i className="bi bi-arrow-right-circle-fill ml-1"></i>
                 </div>
-                {/* </a> */}
               </h6>
             </div>
             <div className="col-2 mt-5   ">
