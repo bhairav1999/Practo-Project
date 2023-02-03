@@ -17,6 +17,7 @@ import Footer from "./components/homepage/Footer";
 import ConsultDoctor from "./components/VideoConsult/ConsultDoctor/ConsultDoctor";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import DoctorList from "./components/sergeries/DoctorList";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/BookedServer" element={<BookedServer />} />
           <Route path="/BookedServer" element={<BookedServer />} />
           <Route path="/Consult-Doctor" element={<ConsultDoctor />} />
+          <Route path="/Doctor-List" element={<DoctorList />} />
         </Routes>
         <Footer />
       </Router>

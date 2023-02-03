@@ -1,0 +1,90 @@
+[
+    {
+   "id" :1,
+    "sergeries":"General Sergery",
+    
+    "images":[{
+        "id" :1,
+        "sergery_name":"Gallstone",
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    },
+    {
+        "id" :2,
+        "sergery_name":"Hernia Treatment",
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    },
+    {
+        "id" :3,
+        "sergery_name":"Lipoma Removal",
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    },
+    {
+        "id" :4,
+        "sergery_name":"Circumcision",
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    },
+    {
+        "id" :5,
+        "sergery_name":"Varicose Veins",
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    }
+    
+]
+    
+},
+{
+    "id":2,
+    "sergeries":"Proctology",
+    
+    "images":[{
+        "id" :1,
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    }]
+},
+{
+    "id":3,
+    "sergeries":"Ophthamology",
+    
+    "images":[{
+        "id" :1,
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    }]
+},
+{
+    "id":4,
+    "sergeries":"Urology",
+    
+    "images":[{
+        "id" :1,
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    }]
+},
+{
+    "id":5,
+    "sergeries":"Cosmetic",
+   
+    "images":[{
+        "id" :1,
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    }]
+},
+{
+    "id":6,
+    "sergeries":"Orthopedics",
+    
+    "images":[{
+        "id" :1,
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    }]
+},
+{
+    "id":7,
+    "sergeries":"Hair Treatment",
+    
+    "images":[{
+        "id" :1,
+        "imgpath":"/assets/img/department/shutterstock_1290596902_1__1_.png"
+    }]
+}
+
+]

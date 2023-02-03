@@ -1,0 +1,116 @@
+[
+    {
+   "id" :1,
+    "city":"Pune",
+    "speciality":"Dentist",
+    
+        "imgpath":"/assets/img/doctor_hospital_img/dentist.png",
+        "dr_name":"Dr.Sonali Dhone",
+        "hospital_name":" 32 Pearls Dental Clinic",
+        "experience":"12 years experience overall",
+        "address":"kothrud",
+        "consultation_fee":"₹800 Consultation fee at clinic"
+    },
+    {
+        "id":2,
+        "city":"Pune",
+        "speciality":"Dentist",
+        "imgpath":"/assets/img/doctor_hospital_img/dr_pallavi.jpg",
+        "dr_name":"Dr.Laxmi Kapane",
+        "hospital_name":" White Arc Dental Studio ",
+        "experience":"12 years experience overall",
+        "address":"sangola",
+        "consultation_fee":"₹500 Consultation fee at clinic"
+    },
+    {
+        "id":3,
+        "city":"Pune",
+        "speciality":"Dentist",
+        "imgpath":"/assets/img/doctor_hospital_img/reshma.jpg",
+        "dr_name":"Dr.Sujata Sid",
+        "hospital_name":" Smile Plus Dental Clinic",
+        "experience":"12 years experience overall",
+        "address":"sangola",
+        "consultation_fee":"₹200 Consultation fee at clinic"
+    },
+    {
+        "id" :4,
+         "city":"Pune",
+         "speciality":"General Physician",
+         
+             "imgpath":"/assets/img/doctor_hospital_img/dentist.png",
+             "dr_name":"Dr.Bhairav Karande",
+             "hospital_name":" 32 Pearls Dental Clinic",
+             "experience":"12 years experience overall",
+             "address":"Pandharpur",
+             "consultation_fee":"₹800 Consultation fee at clinic"
+         },
+         {
+             "id":5,
+             "city":"Pune",
+             "speciality":"General Physician",
+             "imgpath":"/assets/img/doctor_hospital_img/dentist.png",
+             "dr_name":"Dr.Sahil Pathan",
+             "hospital_name":" White Arc Dental Studio ",
+             "experience":"12 years experience overall",
+             "address":"sangola",
+             "consultation_fee":"₹500 Consultation fee at clinic"
+         },
+         {
+            "id" :6,
+             "city":"Mumbai",
+             "speciality":"Dentist",
+             
+                 "imgpath":"/assets/img/doctor_hospital_img/dentist.png",
+                 "dr_name":"Dr.Vasim Tamboli",
+                 "hospital_name":" 32 Pearls Dental Clinic",
+                 "experience":"12 years experience overall",
+                 "address":"kothrud",
+                 "consultation_fee":"₹800 Consultation fee at clinic"
+             },
+             {
+                 "id":7,
+                 "city":"Mumbai",
+                 "speciality":"Dentist",
+                 "imgpath":"/assets/img/doctor_hospital_img/dr_pallavi.jpg",
+                 "dr_name":"Dr.Laxmi Kapane",
+                 "hospital_name":" White Arc Dental Studio ",
+                 "experience":"12 years experience overall",
+                 "address":"sangola",
+                 "consultation_fee":"₹500 Consultation fee at clinic"
+             },
+             {
+                 "id":8,
+                 "city":"Mumbai",
+                 "speciality":"General Physician",
+                 "imgpath":"/assets/img/doctor_hospital_img/reshma.jpg",
+                 "dr_name":"Dr.Sujata Sid",
+                 "hospital_name":" Smile Plus Dental Clinic",
+                 "experience":"12 years experience overall",
+                 "address":"sangola",
+                 "consultation_fee":"₹200 Consultation fee at clinic"
+             },
+             {
+                 "id" :9,
+                  "city":"Mumbai",
+                  "speciality":"General Physician",
+                  
+                      "imgpath":"/assets/img/doctor_hospital_img/dentist.png",
+                      "dr_name":"Dr.Bhairav Karande",
+                      "hospital_name":" 32 Pearls Dental Clinic",
+                      "experience":"12 years experience overall",
+                      "address":"Pandharpur",
+                      "consultation_fee":"₹800 Consultation fee at clinic"
+                  },
+                  {
+                      "id":10,
+                      "city":"Mumbai",
+                      "speciality":"General Physician",
+                      "imgpath":"/assets/img/doctor_hospital_img/dr_pallavi.jpg",
+                      "dr_name":"Dr.Sahil Pathan",
+                      "hospital_name":" White Arc Dental Studio ",
+                      "experience":"12 years experience overall",
+                      "address":"sangola",
+                      "consultation_fee":"₹500 Consultation fee at clinic"
+                  }
+]

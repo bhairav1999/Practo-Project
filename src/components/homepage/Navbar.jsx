@@ -47,7 +47,6 @@ const Navbar = () => {
       <b>  Surgeries</b>
               </NavLink>
 
-
               <MDBNavbarItem className='navmar'>
               <MDBDropdown>
                 <MDBDropdownToggle tag='a' className='nav-link' role='button'>

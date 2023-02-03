@@ -1,0 +1,12 @@
+[
+    {
+   "id" :1,
+    "speciality":"Dentist"
+
+},
+{
+    "id" :2,
+     "speciality":"General Physician"
+ 
+ }
+]

@@ -13,7 +13,7 @@ import BookAppint from './BookAppint';
 import TopArti from './TopArti';
 import WhatCoursal from './WhatCoursal';
 import DownldApp from './DownldApp';
-
+import SearchBar from "../sergeries/SearchBar"
 
 
 
@@ -25,8 +25,8 @@ const HomeAllData = () => {
 
   return (
    <>
-  
-    <Inputbox/>
+  <SearchBar/>
+    {/* <Inputbox/> */}
   <Cardtextlink/>
   <CardGrid/>
 <ConsultopDoc/>
