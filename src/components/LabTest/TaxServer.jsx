@@ -1,5 +1,6 @@
 import React from 'react'
 import './TaxServer.css'
+import { NavLink } from "react-router-dom";
 
 const TaxServer = () => {
   return (
@@ -165,7 +166,10 @@ Your tests will be conducted in one of our partner labs to ensure highest accura
     </div>
     </div>
     <hr />
-    <button className='btn-info'>Book Now</button>
+   
+    <NavLink className="nav-link active ms-2" to="/MultistepForm">
+      <b>   <button className='btn-info'>Book Now</button></b>
+              </NavLink>
     </div>
 
 

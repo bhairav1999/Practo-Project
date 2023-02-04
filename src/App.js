@@ -11,10 +11,13 @@ import FindDocters from "./components/FindDocter/FindDocters";
 import HomeAllData from "./components/homepage/HomeAllData";
 
 import LoginApp from './components/LabTest/SubLabTest/LoginApp'
+import LoGin from './components/LabTest/SubLabTest/LoGin'
+import MultistepForm from './components/LabTest/SubLabTest/MultistepForm'
 import TaxServer from './components/LabTest/TaxServer'
 import LdlServer from './components/LabTest/LdlServer'
 import BookedServer from './components/LabTest/BookedServer'
 import Footer from './components/homepage/Footer'
+
 
 
 
@@ -44,6 +47,8 @@ function App() {
           <Route path="/BookedServer" element={<BookedServer />} />
           <Route path="/BookedServer" element={<BookedServer />} />
           <Route path="/Consult-Doctor" element={<ConsultDoctor />} />
+          <Route path="/MultistepForm" element={<MultistepForm />} />
+          <Route path="/LoGin" element={<LoGin />} />
         </Routes>
         <Footer />
       </Router>

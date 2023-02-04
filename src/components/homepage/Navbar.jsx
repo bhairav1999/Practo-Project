@@ -8,7 +8,7 @@ import {
   MDBDropdownToggle,
   MDBDropdownMenu,
   MDBDropdownItem,
-  MDBCollapse,
+
 } from 'mdb-react-ui-kit';
 const Navbar = () => {
   return (
@@ -77,15 +77,16 @@ const Navbar = () => {
               
             <NavLink
             className="btn ms-3 btn-outline-dark my-2 my-sm-0  "
-            to="/"
+            to="/LoGin"
          >
-            Login
+                Register
+           
           </NavLink>
           <NavLink
             className="btn btn-outline-dark my-2 my-sm-0 ms-2 ml-3 "
             to="/LoginApp"
           >
-            Register
+         Login
           </NavLink>
     </div>
     </div>

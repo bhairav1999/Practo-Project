@@ -2,6 +2,7 @@ import React ,{useState ,useEffect} from "react";
 import OurPartnerLabs from "./OurPartnerLabs";
 import "./SlideBar.css";
 import axios from 'axios'
+import { NavLink } from "react-router-dom";
 
 
 import { GrFormPrevious } from "react-icons/gr";
@@ -150,12 +151,10 @@ const PopularLapTest = () => {
                   <strike className="h6 text-muted">{e.subPrise}</strike>{" "}
                   <span className="text-success  h6">{e.discount}</span>{" "}
                   <span>
-                    <button
-                      type="button"
-                      className="btn btn-info fw-bold ms-3 mt-3 h6"
-                    >
-                      Book Now
-                    </button>
+                  <NavLink className="nav-link active ms-2 " to="/MultistepForm">
+      <b>   <button className="btn btn-info fw-bold ms-3 mt-3 h6">Book Now</button></b>
+              </NavLink>
+                    
                   </span>
                 </div>
               </MDBCardFooter>
@@ -205,12 +204,9 @@ const PopularLapTest = () => {
                   <strike className="h6 text-muted">{e.subPrise}</strike>{" "}
                   <span className="text-success  h6">{e.discount}</span>{" "}
                   <span>
-                    <button
-                      type="button"
-                      className="btn btn-info fw-bold ms-3 mt-3 h6"
-                    >
-                      Book Now
-                    </button>
+                  <NavLink className="nav-link active ms-2" to="/MultistepForm">
+      <b>   <button className="btn btn-info fw-bold ms-3 mt-3 h6">Book Now</button></b>
+              </NavLink>
                   </span>
                 </div>
               </MDBCardFooter>
@@ -260,12 +256,9 @@ const PopularLapTest = () => {
                   <strike className="h6 text-muted">{e.subPrise}</strike>{" "}
                   <span className="text-success  h6">{e.discount}</span>{" "}
                   <span>
-                    <button
-                      type="button"
-                      className="btn btn-info fw-bold ms-3 mt-3 h6"
-                    >
-                      Book Now
-                    </button>
+                  <NavLink className="nav-link active ms-2" to="/MultistepForm">
+      <b>   <button className="btn btn-info fw-bold ms-3 mt-3 h6">Book Now</button></b>
+              </NavLink>
                   </span>
                 </div>
               </MDBCardFooter>

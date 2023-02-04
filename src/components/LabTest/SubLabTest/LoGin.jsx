@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 // import "../../Css/LoginForm.css"
 // import img1 from "..";
-function LoginApp() {
+function LoGin() {
   return (
     <>
       <section className="vh-100 mt-5">
@@ -19,7 +19,18 @@ function LoginApp() {
               <form>
                
 
-       
+              <div className="form-outline mb-4">
+                <label className="form-label">
+                User Name 
+                  </label>
+                  <input
+                    type="text"
+                    id="form3Example3"
+                    className="form-control form-control-lg"
+                    placeholder="Enter Your Name"
+                  />
+                  
+                </div>
                
                 {/* Email input */}
                 <div className="form-outline mb-4">
@@ -47,23 +58,7 @@ function LoginApp() {
                   />
                  
                 </div>
-                <div className="d-flex justify-content-between align-items-center">
-                  {/* Checkbox */}
-                  <div className="form-check mb-0">
-                    <input
-                      className="form-check-input me-2"
-                      type="checkbox"
-                      defaultValue
-                      id="form2Example3"
-                    />
-                    <label className="form-check-label">
-                      Remember me
-                    </label>
-                  </div>
-                  <a href="#!" className="text-body">
-                    Forgot password?
-                  </a>
-                </div>
+               
                 <div className="text-center text-lg-start mt-4 pt-2">
                   <NavLink to={"/"}>
                     <button
@@ -71,13 +66,10 @@ function LoginApp() {
                       className="btn btn-primary btn-lg"
                       style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
                     >
-                      Login
+                     Register
                     </button>
                   </NavLink>
-                  <p className="small fw-bold mt-2 pt-1 mb-0">
-                    Don't have an account?
-                    <NavLink to={"/LoGin"}>Register</NavLink>
-                  </p>
+                 
                 </div>
               </form>
             </div>
@@ -88,4 +80,4 @@ function LoginApp() {
   );
 }
 
-export default LoginApp;
+export default LoGin;
