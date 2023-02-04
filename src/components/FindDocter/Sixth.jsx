@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from "react-router-dom";
 const Sixth = () => {
     return (
 
@@ -15,7 +15,13 @@ const Sixth = () => {
                                 <p className="card-text"><h5>Guaranteed availability</h5>
                                     <h5>Over 130,000+ genuine medicines</h5>
                                     <h5> Home delivery in 24hrs </h5></p>
-                                <a href="#" className="btn btn-primary">Find Me The Right Docter</a>
+                                <NavLink
+                                    to="/Header"
+                                >
+                                    < button className="btn btn-primary">Order Medicines</button>
+                                </NavLink>
+
+
                             </div>
 
                         </div>

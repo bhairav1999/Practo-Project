@@ -1,14 +1,18 @@
 import React, { useEffect, useState } from 'react'
-//import allinfodata from "/alldata/allinfodata"
+
 import axios from 'axios'
 import { json } from 'react-router-dom'
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+import Form from 'react-bootstrap/Form';
 const Departments = () => {
   const[department,setDepartment]=useState([])
-
+  const[ailment,setAilment]=useState([])
+   const [lgShow, setLgShow] = useState(false);
 
 useEffect(()=>{
   async function fetchData() {
-       const res= await axios.get('./alldata/departmentsdata.json') 
+       const res= await axios.get('./alldata/surgery/departmentsdata.json') 
       
        if(res.data.length>0){
         setDepartment(res.data)
@@ -17,6 +21,18 @@ useEffect(()=>{
      fetchData();
 
 },[])
+
+const selectAilment=async ()=>{
+  const res= await axios.get('./alldata/surgery/ailment.json') 
+      
+  if(res.data.length>0){
+    console.log(res.data)
+    const ailmentData = res.data.filter( (ail) => ail.sergeries==="General Sergery")
+    
+   setAilment(ailmentData)
+  }
+  setLgShow(true)
+}
 return (
 
 <div className='container'>
@@ -28,8 +44,8 @@ return (
   </div>
  
   {department.map((element,index)=>{
-return  <div class="card column1 rounded"  style={{width:"12rem",border:"none",padding:"30px"}}>
-<img src={element.imgpath} class="card-img-top " alt="..."/>
+return  <div class="card column1 rounded" onClick={selectAilment}  style={{width:"12rem",border:"none",padding:"30px"}}>
+<img src={element.imgpath} class="card-img-top " alt="..." />
 <div class="card-body">
   <h5 class="card-title" style={{fontSize:"13px"}}>{element.sergeries}</h5>
   <p class="card-text" style={{fontSize:"12px"}}>{element.ailments}</p>
@@ -38,7 +54,29 @@ return  <div class="card column1 rounded"  style={{width:"12rem",border:"none",p
 </div>
   })}
  
-   
+ <Modal
+        size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        aria-labelledby="example-modal-sizes-title-vcenter"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-vcenter">
+          Select {ailment.sergeries} Ailment
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+        {ailment.map((ailments,index)=>{
+          
+return <div>
+
+<img src={ailments.images[0]['imgpath']}  class="imgsize" alt=""/>
+
+<span class="caption">{ailments.sergeries}</span>
+</div>
+  })}
+        </Modal.Body>
+      </Modal>
     
 
         </div>

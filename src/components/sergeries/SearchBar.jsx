@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import LaptestOffer from "./LaptestOffer";
+
 import axios from 'axios'
 import TextField from '@mui/material/TextField';
-
+import Stack from '@mui/material/Stack';
 import Autocomplete from '@mui/material/Autocomplete';
 import Button from '@mui/material/Button';
-
+import DoctorList from "./DoctorList"
 import { useNavigate } from 'react-router-dom';
-import { height } from '@mui/system';
-export default function LabtestCitySearch() {
+export default function SearchBar() {
     const[city,setCity]=useState([])
     const[speciality,setSpeciality]=useState([])
     const[cityname,setCityName]=useState("")
@@ -49,19 +48,18 @@ export default function LabtestCitySearch() {
         options={city.map((option) => option.city_name)}
         renderInput={(params) => <TextField onSelect={e => setCityName(e.target.value)} {...params}  placeholder="Search City" value={cityname}  />}
       />
-      <Autocomplete 
-     sx={{display : 'inline-flex', width : '30%' }}
-     freeSolo 
+      <Autocomplete
+     sx={{display : 'inline-flex', width : '40%' }}
+     freeSolo
      options={speciality.map((option) => option.speciality)}
      renderInput={(params) => <TextField onSelect={e => setSpecialityName(e.target.value)} {...params} placeholder="Search Speciality" value={specialityname}
      
      />}
      
   />
-    <Button type="submit" className='rounded ms-3' variant="contained" size="large" onClick={gotoDoctorList}>Search</Button>
+    <Button type="submit" variant="contained" size="large" onClick={gotoDoctorList}>Search</Button>
   
     </form>
-    <LaptestOffer/>
    </div>
   );
 }

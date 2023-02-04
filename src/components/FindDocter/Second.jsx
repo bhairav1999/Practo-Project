@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 const Second = () => {
     return (
         <>
@@ -17,7 +17,10 @@ const Second = () => {
                                         <p className="card-text"><h5>Multi-level security checks</h5>
                                             <h5>Multiple data backups</h5>
                                             <h5> Stringent data privacy policies. </h5></p>
-                                        <a href="#" className="btn btn-primary">Read more</a>
+                                        <NavLink to={"/ReadMore"}>
+                                            <button className="btn btn-primary">Read more</button>
+                                        </NavLink>
+
                                     </div>
                                 </div>
                             </div>

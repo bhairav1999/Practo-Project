@@ -1,10 +1,17 @@
 import React from 'react'
-
+import Slider from "react-slick";
 const Clinic = () => {
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1
+  // };
   return (
  <div className='container'>
   <div className='row'>
-    <div className='col-8'>
+    <div className='col-12'>
   <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
 
@@ -38,10 +45,34 @@ const Clinic = () => {
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
+  {/* <div>
+        <h2> Our new-age clinics with the latest high-tech equipments</h2>
+        <Slider {...settings}>
+          <div>
+      <img src="/assets/img/clinic/clinic_image_one.jpg" alt="" class="d-block w-100"/>
+            <h3></h3>
+          </div>
+          <div>
+      <img src="/assets/img/clinic/clinic_image_one.jpg" alt="" class="d-block w-100"/>
+            <h3></h3>
+          </div>
+          <div>
+      <img src="/assets/img/clinic/clinic_image_one.jpg" alt="" class="d-block w-100"/>
+            <h3></h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+        </Slider>
+      </div> */}
 </div>
-<div className='col-4'>
 
-</div>
 </div>
 </div>
   )

@@ -2,6 +2,7 @@ import React from 'react'
 import './Main.css'
 import Pest from './Pest'
 
+import SearchBar from "../sergeries/SearchBar"
 import Second from './Second'
 const Main = () => {
   return (
@@ -14,15 +15,16 @@ const Main = () => {
             <h3>Find and Book</h3>
           </div>
         </div>
-        <div className='container'>
-          <div className='d2'>
+        <div className='container bg-light w-50'>
+          {/* <div className='d2'>
             <div class="input-group mb-3">
               <input type="text" class="form-control" placeholder="Bangalore" aria-label="Bangalore" />
 
               <input type="text" class="form-control" placeholder="search docters,clinics,hospitals etc." aria-label="search docters,clinics,hospitals etc" />
             </div>
-          </div>
+          </div> */}
 
+          <SearchBar />
         </div>
         <div className='container'>
           <div className='d3'>

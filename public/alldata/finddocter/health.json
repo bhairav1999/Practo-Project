@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "img": "https://www.practo.com/providers/static/images/pages/company/pdata.png",
+        "title": "Your data is for your eyes only",
+        "content": " Anything that you share on Practo is completely private. No one else can access it. We give an unprecedented level of control so that only you can decide who sees what."
+    },
+    {
+        "id": "2",
+        "img": "https://www.practo.com/providers/static/images/pages/company/p256.png",
+        "title": "Everything is protected with 256-bit encryption",
+        "content": " Practo uses world-class standards to shield your data from unauthorized intrusion. It is always protected with multiple layers of encryption (256-bit encryption over the network)."
+    },
+    {
+        "id": "3",
+        "img": "https://www.practo.com/providers/static/images/pages/company/p2fa.png",
+        "title": "We don't sell your data",
+        "content": "  Extra measures are good. Therefore, we let you enable two-factor authentication so that your data is absolutely secure, and no one else can access it except you."
+    },
+    {
+        "id": "4",
+        "img": "https://www.practo.com/providers/static/images/pages/company/logout.png",
+        "title": "We never mix doctors' data with patients'data",
+        "content": " Whenever a new device logs into your account, Practo notifies you immediately, so that you can review the activity and log out if needed."
+    }
+]

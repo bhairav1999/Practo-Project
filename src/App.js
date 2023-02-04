@@ -23,9 +23,12 @@ import Footer from './components/homepage/Footer'
 
 
 import ConsultDoctor from "./components/VideoConsult/ConsultDoctor/ConsultDoctor";
+import Textedit11 from "./components/homepage/Textedit11";
 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import DoctorList from "./components/sergeries/DoctorList";
+import ReadMore from "./components/FindDocter/ReadMore";
 
 function App() {
   return (
@@ -38,7 +41,7 @@ function App() {
           <Route path="/Consult" element={<Consult />} />
           <Route path="/Header" element={<Header />} />
           <Route path="/SingleProduct/:pid" element={<SingleProduct />} />
-
+          <Route path="/ReadMore" element={<ReadMore />} />
           <Route path="/LabTestAllComp" element={<LabTestAllComp />} />
           <Route path="/Sergeries" element={<Sergeries />} />
           <Route path="/LoginApp" element={<LoginApp />} />
@@ -49,6 +52,9 @@ function App() {
           <Route path="/Consult-Doctor" element={<ConsultDoctor />} />
           <Route path="/MultistepForm" element={<MultistepForm />} />
           <Route path="/LoGin" element={<LoGin />} />
+          <Route path="/Doctor-List" element={<DoctorList />} />
+          <Route path="/Textedit11" element={<Textedit11/>} />
+
         </Routes>
         <Footer />
       </Router>

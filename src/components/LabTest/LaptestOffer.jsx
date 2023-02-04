@@ -89,4 +89,4 @@ if (res.data.length > 0) {
   )
 }
 
-export default LaptestOffer
+export default LaptestOffer;

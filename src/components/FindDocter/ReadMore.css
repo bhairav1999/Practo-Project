@@ -1,0 +1,17 @@
+.yellowdash{
+   
+    margin:5px ;
+    margin-left: 0px;
+    height: 4Px;
+    border-radius: 2px;
+}
+.bluedash{
+   
+    margin:5px ;
+    margin-left: 0px;
+    height: 4Px;
+    border-radius: 2px;
+}
+.bgfaintgrey{
+    background-color:rgb(225, 221, 221) ;
+}
