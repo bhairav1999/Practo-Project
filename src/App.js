@@ -18,10 +18,6 @@ import LdlServer from './components/LabTest/LdlServer'
 import BookedServer from './components/LabTest/BookedServer'
 import Footer from './components/homepage/Footer'
 
-
-
-
-
 import ConsultDoctor from "./components/VideoConsult/ConsultDoctor/ConsultDoctor";
 import Textedit11 from "./components/homepage/Textedit11";
 
